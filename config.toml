@@ -1,0 +1,4 @@
+baseURL = 'http://srdan.geek.nz/'
+languageCode = 'en-nz'
+title = 'Home of Srđan Đukić'
+theme = 'coder'

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Home of Srđan Đukić</title>
+    <link>http://srdan.geek.nz/posts/</link>
+    <description>Recent content in Posts on Home of Srđan Đukić</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    <lastBuildDate>Sat, 25 Sep 2021 21:58:46 +1200</lastBuildDate><atom:link href="http://srdan.geek.nz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first post</title>
+      <link>http://srdan.geek.nz/posts/my-first-post/</link>
+      <pubDate>Sat, 25 Sep 2021 21:58:46 +1200</pubDate>
+      
+      <guid>http://srdan.geek.nz/posts/my-first-post/</guid>
+      <description>Hello World!    Hi! This is my first blog post.</description>
+    </item>
+    
+  </channel>
+</rss>
