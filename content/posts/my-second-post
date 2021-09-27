@@ -1,0 +1,9 @@
+---
+title: "My Second Post"
+date: 2021-09-27T22:28:50+13:00
+draft: true
+---
+# Hello Again
+
+This is my second blog post. I am using it to try out the workflow for Hugo + GitHub Actions.
+
