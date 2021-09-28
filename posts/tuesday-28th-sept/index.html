@@ -1,0 +1,193 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=content-language content="en">
+<meta name=color-scheme content="light dark">
+<meta http-equiv=content-security-policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' https://www.gravatar.com; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
+<meta name=author content="Srđan Đukić">
+<meta name=description content="More and more people are looking to use the Kubernetes API for management of cloud resources">
+<meta name=keywords content="blog,developer,personal">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="The rise of K8s for infrastructure management">
+<meta name=twitter:description content="More and more people are looking to use the Kubernetes API for management of cloud resources">
+<meta property="og:title" content="The rise of K8s for infrastructure management">
+<meta property="og:description" content="More and more people are looking to use the Kubernetes API for management of cloud resources">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://srdan.geek.nz/posts/tuesday-28th-sept/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-09-28T22:01:55+13:00">
+<meta property="article:modified_time" content="2021-09-28T22:01:55+13:00">
+<title>
+The rise of K8s for infrastructure management · Home of Srđan Đukić
+</title>
+<link rel=canonical href=https://srdan.geek.nz/posts/tuesday-28th-sept/>
+<link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
+<link rel=stylesheet href=/css/coder.min.708686f8ab8176e91d44fcbe488a0fe0333b94f405cf18a52383d67ba22f0ccb.css integrity="sha256-cIaG+KuBdukdRPy+SIoP4DM7lPQFzxilI4PWe6IvDMs=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen>
+<link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16>
+<link rel=apple-touch-icon href=/images/apple-touch-icon.png>
+<link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body class="preload-transitions colorscheme-auto">
+<div class=float-container>
+<a id=dark-mode-toggle class=colorscheme-toggle>
+<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</div>
+<main class=wrapper>
+<nav class=navigation>
+<section class=container>
+<a class=navigation-title href=/>
+Home of Srđan Đukić
+</a>
+<input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle>
+<i class="fa fa-bars fa-fw" aria-hidden=true></i>
+</label>
+<ul class=navigation-list>
+<li class=navigation-item>
+<a class=navigation-link href=/about/>About</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/posts/>Blog</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/projects/>Projects</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=/contact/>Contact me</a>
+</li>
+</ul>
+</section>
+</nav>
+<div class=content>
+<section class="container post">
+<article>
+<header>
+<div class=post-title>
+<h1 class=title>
+<a class=title-link href=https://srdan.geek.nz/posts/tuesday-28th-sept/>
+The rise of K8s for infrastructure management
+</a>
+</h1>
+</div>
+<div class=post-meta>
+<div class=date>
+<span class=posted-on>
+<i class="fa fa-calendar" aria-hidden=true></i>
+<time datetime=2021-09-28T22:01:55+13:00>
+September 28, 2021
+</time>
+</span>
+<span class=reading-time>
+<i class="fa fa-clock-o" aria-hidden=true></i>
+3-minute read
+</span>
+</div>
+<div class=authors>
+<i class="fa fa-user" aria-hidden=true></i>
+<a href=/authors/sr%C4%91an-%C4%91uki%C4%87/>Srđan Đukić</a></div>
+<div class=tags>
+<i class="fa fa-tag" aria-hidden=true></i>
+<span class=tag>
+<a href=/tags/kubernetes/>kubernetes</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/k8s/>k8s</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/iac/>iac</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/crossplane/>crossplane</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/operators/>operators</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/cloud/>cloud</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/aws/>aws</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/azure/>azure</a>
+</span>
+<span class=separator>•</span>
+<span class=tag>
+<a href=/tags/infrastructure/>infrastructure</a>
+</span></div>
+</div>
+</header>
+<div>
+<h1 id=the-rise-of-k8s-for-infrastructure-management>
+The rise of K8s for infrastructure management
+<a class=heading-link href=#the-rise-of-k8s-for-infrastructure-management>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h1>
+<p>One of the typically overlooked aspects of moving to microservice architecture in general (and specificallyK8s for the purposes of this article) is the fact that each service &ldquo;owns&rdquo; its own datastore. Unless constrained by costs, this means a fully managed datastore instance (e.g. RDS). Once we accept that the service owns and manages the creation, upgrades etc&mldr; of its own datastore, it then becomes logical to store the &ldquo;infrastructure code&rdquo; for this next to the application code (i.e. in the same repository). This is good as it really gives the team responsible a sense of autonomy of their own infrastructure and, currently, likely looks like a bunch of Terraform files in a directory in version control, next to the application code.</p>
+<p>The drawbacks of the above approach is that the team now has to learn Terraform, which can be a learning curve and has several concepts which don&rsquo;t fit nicely with the developer mindset (e.g. the heavy use of a &ldquo;statefile&rdquo;). If only there was a way to manage infrastructure the same way that we manage our deploy objects&mldr; 🤔</p>
+<p>This is where tools like the <a href=https://github.com/Azure/azure-service-operator>Azure Service Operator</a>, <a href=https://crossplane.io/>Crossplane.io</a> and <a href=https://github.com/aws-controllers-k8s/community>AWS Controllers for Kubernetes (ACK)</a> come in. They allow a development team (or anyone really) to define their cloud infrastructure objects using Kubernetes API objects.</p>
+<p>For example, to define an Azure Cache for Redis instance using the Azure Service Operator, you would include the following in your Helm charts (or whatever tool you use to deploy):
+<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=font-weight:700>apiVersion</span>: azure.microsoft.com/v1alpha1
+<span style=font-weight:700>kind</span>: RedisCache
+<span style=font-weight:700>metadata</span>:
+  <span style=font-weight:700>name</span>: azure-redis
+<span style=font-weight:700>spec</span>:
+  <span style=font-weight:700>location</span>: eastus2
+  <span style=font-weight:700>properties</span>:
+    <span style=font-weight:700>sku</span>:
+      <span style=font-weight:700>name</span>: Basic
+      <span style=font-weight:700>family</span>: C
+      <span style=font-weight:700>capacity</span>: 1
+    <span style=font-weight:700>enableNonSslPort</span>: <span style=font-weight:700>true</span></code></pre></div></p>
+<p>To define an AWS CloudFront distribution using Crossplane, you would do the following:
+<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=font-weight:700>apiVersion</span>: cloudfront.aws.crossplane.io/v1alpha1
+<span style=font-weight:700>kind</span>: Distribution
+<span style=font-weight:700>metadata</span>:
+  <span style=font-weight:700>name</span>: example-distribution
+<span style=font-weight:700>spec</span>:
+  <span style=font-weight:700>forProvider</span>:
+    <span style=font-weight:700>region</span>: us-east-1
+    <span style=font-weight:700>distributionConfig</span>:
+      <span style=font-weight:700>enabled</span>: <span style=font-weight:700>true</span>
+      <span style=font-weight:700>comment</span>: Example CloudFront Distribution
+      <span style=font-weight:700>origins</span>:
+        <span style=font-weight:700>items</span>:
+          - <span style=font-weight:700>domainName</span>: test-bucket.s3.amazonaws.com
+            <span style=font-weight:700>id</span>: s3Origin
+            <span style=font-weight:700>s3OriginConfig</span>:
+              <span style=font-weight:700>originAccessIDentity</span>: <span style=font-style:italic>&#34;&#34;</span>
+      <span style=font-weight:700>defaultCacheBehavior</span>:
+        <span style=font-weight:700>targetOriginID</span>: s3Origin
+        <span style=font-weight:700>viewerProtocolPolicy</span>: allow-all
+        <span style=font-weight:700>minTTL</span>: 0
+        <span style=font-weight:700>forwardedValues</span>:
+          <span style=font-weight:700>cookies</span>:
+            <span style=font-weight:700>forward</span>: none
+          <span style=font-weight:700>queryString</span>: <span style=font-weight:700>false</span>
+  <span style=font-weight:700>providerConfigRef</span>:
+    <span style=font-weight:700>name</span>: example</code></pre></div></p>
+<p>The above is excellent! It makes brilliant use of the K8s control loop to ensure we have our declarative infrastructure, while also re-purposing the K8s API, extending it in a way that&rsquo;s natural and useful. It also does this without forcing developers to learn a new DSL (the presumption being that everyone knows YAML).</p>
+<p>Out of the three listed, Crossplane looks the most polished at the moment, however, it is targetting several clouds and has features like <a href=https://crossplane.io/docs/v1.4/reference/composition.html>composition</a>, so might feel &ldquo;heavy&rdquo; when compared to the &ldquo;native&rdquo; offerings. In saying that, it seems to have much more support, in terms of infrastructure objects, on AWS than ACK. Another alternative to the above tools might be <a href=https://operatorhub.io/>OperatorHub.io</a>, which seems to be a website that aggregates K8s operators and makes them easy to find. This option might makes sense when there is a high trust environment and teams are able to install their own Operators.</p>
+<p>These tools give a way to use the same workflow and tools for handling your applications' managed cloud infrastructure that you already use for your &ldquo;deployment&rdquo; infrastructure (i.e. Deployments, Services, ConfigMaps and Secrets). As such, they continue to push for greater team autonomy, while also having safety benefits by allowing infrastructure and application changes to be versioned, tested and deployed together.</p>
+</div>
+<footer>
+</footer>
+</article>
+</section>
+</div>
+</main>
+<script src=/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js integrity="sha256-A7F3afT5GuNWZ+HyocqMFvUFYlds+Q/zKzF5kmkU2qU="></script>
+</body>
+</html>
