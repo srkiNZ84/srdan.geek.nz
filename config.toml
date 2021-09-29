@@ -79,8 +79,8 @@ customJS = []
 childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
-framesrc = ["'self'"]
-imgsrc = ["'self'", "https://www.gravatar.com"]
+framesrc = ["'self'", "https://disqus.com"]
+imgsrc = ["'self'", "https://www.gravatar.com", "https://referrer.disqus.com", "https://c.disquscdn.com"]
 objectsrc = ["'none'"]
 stylesrc = [
   "'self'",
@@ -89,7 +89,7 @@ stylesrc = [
   "https://cdn.jsdelivr.net/"
 ]
 scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com", "https://srdan-geek-nz.disqus.com"]
-prefetchsrc = ["'self'"]
+prefetchsrc = ["'self'", "https://c.disquscdn.com", "https://disqus.com"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = ["'self'", "https://www.google-analytics.com"]
 
