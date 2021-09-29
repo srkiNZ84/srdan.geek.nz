@@ -86,9 +86,10 @@ stylesrc = [
   "'self'",
   "'unsafe-inline'",
   "https://fonts.googleapis.com/",
-  "https://cdn.jsdelivr.net/"
+  "https://cdn.jsdelivr.net/",
+  "https://c.disquscdn.com"
 ]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com", "https://srdan-geek-nz.disqus.com"]
+scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com", "https://srdan-geek-nz.disqus.com", "https://c.disquscdn.com"]
 prefetchsrc = ["'self'", "https://c.disquscdn.com", "https://disqus.com"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = ["'self'", "https://www.google-analytics.com"]
