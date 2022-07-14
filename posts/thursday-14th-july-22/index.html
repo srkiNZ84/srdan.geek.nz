@@ -1,0 +1,72 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="en"><meta name=color-scheme content="light dark"><meta http-equiv=content-security-policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self' https://disqus.com; img-src 'self' https://www.gravatar.com https://referrer.disqus.com https://c.disquscdn.com https://cdn.viglink.com; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/ https://c.disquscdn.com; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://srdan-geek-nz.disqus.com https://c.disquscdn.com; prefetch-src 'self' https://c.disquscdn.com https://disqus.com; connect-src 'self' https://www.google-analytics.com https://links.services.disqus.com;"><meta name=author content="Srđan Đukić"><meta name=description content="Talking about openssl replacement cfssl and how to use it to generate a CA and have it sign certificates"><meta name=keywords content="blog,developer,personal"><meta name=twitter:card content="summary"><meta name=twitter:title content="Generating CA and certificates with CFSSL"><meta name=twitter:description content="Talking about openssl replacement cfssl and how to use it to generate a CA and have it sign certificates"><meta property="og:title" content="Generating CA and certificates with CFSSL"><meta property="og:description" content="Talking about openssl replacement cfssl and how to use it to generate a CA and have it sign certificates"><meta property="og:type" content="article"><meta property="og:url" content="https://srdan.geek.nz/posts/thursday-14th-july-22/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-07-14T12:08:24+12:00"><meta property="article:modified_time" content="2022-07-14T12:08:24+12:00"><title>Generating CA and certificates with CFSSL · Home of Srđan Đukić</title><link rel=canonical href=https://srdan.geek.nz/posts/thursday-14th-july-22/><link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.708686f8ab8176e91d44fcbe488a0fe0333b94f405cf18a52383d67ba22f0ccb.css integrity="sha256-cIaG+KuBdukdRPy+SIoP4DM7lPQFzxilI4PWe6IvDMs=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><meta name=generator content="Hugo 0.101.0"></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Home of Srđan Đukić</a>
+<input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle><i class="fa fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/about/>About</a></li><li class=navigation-item><a class=navigation-link href=/posts/>Blog</a></li><li class=navigation-item><a class=navigation-link href=/projects/>Projects</a></li><li class=navigation-item><a class=navigation-link href=/contact/>Contact me</a></li></ul></section></nav><div class=content><section class="container post"><article><header><div class=post-title><h1 class=title><a class=title-link href=https://srdan.geek.nz/posts/thursday-14th-july-22/>Generating CA and certificates with CFSSL</a></h1></div><div class=post-meta><div class=date><span class=posted-on><i class="fa fa-calendar" aria-hidden=true></i>
+<time datetime=2022-07-14T12:08:24+12:00>July 14, 2022</time></span>
+<span class=reading-time><i class="fa fa-clock-o" aria-hidden=true></i>
+3-minute read</span></div><div class=authors><i class="fa fa-user" aria-hidden=true></i>
+<a href=/authors/sr%C4%91an-%C4%91uki%C4%87/>Srđan Đukić</a></div></div></header><div><h1 id=generating-a-ca-and-signing-certificates-with-cfssl>Generating a CA and signing certificates with CFSSL
+<a class=heading-link href=#generating-a-ca-and-signing-certificates-with-cfssl><i class="fa fa-link" aria-hidden=true></i></a></h1><h2 id=about>About
+<a class=heading-link href=#about><i class="fa fa-link" aria-hidden=true></i></a></h2><h3 id=background>Background
+<a class=heading-link href=#background><i class="fa fa-link" aria-hidden=true></i></a></h3><p>Recently I was trying to setup an example mutual TLS configuration between Prometheus (the server) and Node Exporter. In doing so I
+used OpenSSL to generate a CA and certificates for Prometheus and then have the Node exporter trust any client
+certificates signed by the CA.</p><p>It took a long time to generate the CA and sign the certs, mostly due to having to figure out the openssl command line
+syntax and flags etc&mldr; eventually I got there, only to hit this issue:</p><p><a href=https://jfrog.com/knowledge-base/general-what-should-i-do-if-i-get-an-x509-certificate-relies-on-legacy-common-name-field-error/>https://jfrog.com/knowledge-base/general-what-should-i-do-if-i-get-an-x509-certificate-relies-on-legacy-common-name-field-error/</a></p><p>So, it turns out that CN&rsquo;s are no longer trusted/recommended and all new certificates need to use SAN&rsquo;s 🤦</p><p>At this point, the thought of going through the same exercise with OpenSSL did not appeal to me, but I gave it a go,
+only to hit another hurdle.</p><p>That&rsquo;s when I remembered that CloudFlare released an SSL library not too long ago with an explicit focus on security and
+usability. This post talks about using that library (<a href=https://blog.cloudflare.com/introducing-cfssl/>CFSSL</a>) to generate a CA and certificates.</p><h2 id=generating-a-ca>Generating a CA
+<a class=heading-link href=#generating-a-ca><i class="fa fa-link" aria-hidden=true></i></a></h2><p>The first thing that we need to do is to generate a CA. The first step in this process is to generate a certificate
+signing request in the CFSSL JSON format like the below:</p><pre><code>$ cat ca-csr.json 
+{
+    &quot;hosts&quot;: [
+        &quot;example.com&quot;,
+        &quot;www.example.com&quot;,
+        &quot;https://www.example.com&quot;,
+        &quot;jdoe@example.com&quot;,
+        &quot;127.0.0.1&quot;
+    ],
+    &quot;key&quot;: {
+        &quot;algo&quot;: &quot;rsa&quot;,
+        &quot;size&quot;: 2048
+    },
+    &quot;names&quot;: [
+        {
+            &quot;C&quot;:  &quot;NZ&quot;,
+            &quot;L&quot;:  &quot;Auckland&quot;,
+            &quot;O&quot;:  &quot;&quot;,
+            &quot;OU&quot;: &quot;WWW&quot;,
+            &quot;ST&quot;: &quot;Auckland&quot;
+        }
+    ]
+}
+</code></pre><p>NOTE: As we are generating a self-signed Certificate Authority for verifying mutual TLS, the DNS names do not have to match up.</p><p>We can then run the command below in order to generate our CA:</p><pre><code>cfssl genkey -initca ca-csr.json | cfssljson -bare ca
+</code></pre><p>In the above, we are generating a CA using the values from the JSON file and then piping it to the cfssljson to save it
+to two output files (<code>ca.pem</code> and <code>ca-key.pem</code>).</p><h2 id=signing-our-certificate-using-our-ca>Signing our certificate using our CA
+<a class=heading-link href=#signing-our-certificate-using-our-ca><i class="fa fa-link" aria-hidden=true></i></a></h2><p>Now that we have a CA, we need to generate a certificate for our host and sign it using the CA we have created in the
+previous step. We can do this by creating a new CSR file, which looks similar to our original one:</p><pre><code>$ cat prom-csr.json 
+{
+    &quot;hosts&quot;: [
+        &quot;prom-example.com&quot;,
+        &quot;www.prom-example.com&quot;,
+        &quot;https://www.prom-example.com&quot;,
+        &quot;prom@example.com&quot;,
+        &quot;127.0.0.1&quot;
+    ],
+    &quot;key&quot;: {
+        &quot;algo&quot;: &quot;rsa&quot;,
+        &quot;size&quot;: 2048
+    },
+    &quot;names&quot;: [
+        {
+            &quot;C&quot;:  &quot;NZ&quot;,
+            &quot;L&quot;:  &quot;Auckland&quot;,
+            &quot;O&quot;:  &quot;&quot;,
+            &quot;OU&quot;: &quot;WWW&quot;,
+            &quot;ST&quot;: &quot;Auckland&quot;
+        }
+    ]
+}
+</code></pre><p>and then use it to generate a key, a certificate signing request and create a signed certificate with:</p><pre><code>cfssl gencert -ca ca.pem -ca-key ca-key.pem prom-csr.json | cfssljson -bare prom
+</code></pre><p>which will result in two new output files, <code>prom.pem</code> and <code>prom-key.pem</code>.</p><h1 id=conclusion-and-further-work>Conclusion and further work
+<a class=heading-link href=#conclusion-and-further-work><i class="fa fa-link" aria-hidden=true></i></a></h1><p>So, there we have it. So much simpler than OpenSSL.</p><p>In terms of future work, it would be good to investigate whether CFSSL has been vetted/analysed by any third parties
+regarding its security properties. It is <a href=https://github.com/cloudflare/cfssl>open source</a> and for
+the most part relies on Go&rsquo;s standard libraries for the cryptographic functions, so <em>should</em> be ok.</p><p>Other questions raised during this exercise are to do with revocation lists and certificates and how those are handled.</p><p>I&rsquo;ve also discovered that you can actually run cfssl as a server using the &ldquo;serve&rdquo; command, which is also very useful.
+For more reading about features and functionality, the <a href=https://blog.cloudflare.com/tag/cfssl/>CFSSL tag</a> on the CloudFlare blog is a good start.</p></div><footer><div id=disqus_thread></div><script type=application/javascript>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//srdan-geek-nz.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></footer></article></section></div></main><script src=/js/coder.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script></body></html>
