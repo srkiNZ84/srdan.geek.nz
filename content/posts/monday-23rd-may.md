@@ -24,3 +24,6 @@ https://www.percona.com/blog/2012/08/28/differences-between-read-committed-and-r
 
 https://stackoverflow.com/questions/53452571/what-phenomena-does-mysql-try-to-prevent-by-locking-the-whole-table-upon-executi
 
+https://stackoverflow.com/questions/65353975/how-to-view-the-b-tree-index-structure-generated-by-innodb-of-mysql
+
+https://github.com/jeremycole/innodb_ruby
