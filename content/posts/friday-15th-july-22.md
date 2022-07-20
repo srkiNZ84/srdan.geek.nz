@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2022-07-14T16:48:56+12:00
-title = "Setting up Mutual TSL with Prometheus"
+title = "Setting up Mutual TLS with Prometheus"
 description = "Setting up mutual TLS between Prometheus and Node Exporter"
 slug = ""
 authors = ["Srđan Đukić"]
@@ -10,8 +10,6 @@ categories = []
 externalLink = ""
 series = []
 +++
-# Setting up Mutual TLS with Prometheus and Node Exporter
-
 ## About
 
 So, recently I was tasked with trying to securely enable metrics collection from servers which did not have a
@@ -23,20 +21,21 @@ focus.
 While it was tempting to rely on a single mechanism to restrict access (such as firewall rules to only allow connections
 from the Prometheus server), experience has taught us that it's much better to not assume that any single mechanism will
 work all the time (see: [Swiss Cheese Model](https://en.wikipedia.org/wiki/Swiss_cheese_model)). Instead we should adopt
-several security mecahnisms such that if a single one fails, others will pick it up.
+several security mecahnisms such that if a single one fails, others will pick it up (also called "Defence in Depth").
 
 In that spirit, I started looking at other authentication and authorization mechanisms for Prometheus Node exporter and
 came to the conclusion that client TLS certificates (also called mutual TLS) are probably the best way to go security 
 wise (you get encryption to mitigate MITM attacks, along with authentication/authorization to prevent unauthorized access
- to the endpoint).
+ to the endpoint). You also don't have to worry about passwords not being long enough/complicated enough as the client
+certificate has more than enough entropy.
 
 ## How Prometheus mutual TLS works
 
 At a high level, we want to achieve two things:
 
-* Have the HTTP interface to the Prometheus server enable TLS
-* Have the HTTP interface on our Node Exporters require TLS _and_ a valid client certificate (i.e. signed by our
-  internal CA)
+* Have the HTTP interface (the one we access through the browser) to the Prometheus server enable TLS (HTTPS)
+* Have the HTTP interface (the one that Prometheus accesses programatically) on our Node Exporters require TLS _and_ a 
+valid client certificate (i.e. signed by our internal CA)
 
 ## Setting up TLS on the Prometheus server
 
@@ -52,7 +51,7 @@ we are left with three sets of files:
 * prom-ne.pem (Node Exporter certificate, signed by the CA)
 
 Next we need to modify the Prometheus server to use the web config file where our TLS configuration is going to go. On
-Ubuntu 22.04, this means adding the --web-config argument to the /etc/default/prometheus file:
+Ubuntu 22.04, this means adding the `--web-config argument` to the `/etc/default/prometheus` file:
 
 ```
 ARGS="--web.config.file=/etc/prometheus/web-config.yml"
@@ -68,15 +67,15 @@ tls_server_config:
   client_auth_type: VerifyClientCertIfGiven
 ```
 
-Once these changes have been made, we can restart the Prometheus server with "systemctl restart prometheus" which should
-pick up the new configuration. We can verify it has started correctly with "systemctl status prometheus" or "journalctl
--f -u prometheus".
+Once these changes have been made, we can restart the Prometheus server with `systemctl restart prometheus` which should
+pick up the new configuration. We can verify it has started correctly with `systemctl status prometheus` or `journalctl
+-f -u prometheus`.
 
 If it has started correctly, we can now verify that the TLS is working by checking that we are unable to access the 
-Prometheus Web interface over plain HTTP, but HTTPS is working (i.e. http://localhost:9090/ gives an error 
-but https://localhost:9090/ does not)
+Prometheus Web interface over plain HTTP, but HTTPS is working (i.e. `http://localhost:9090/` gives an error 
+but `https://localhost:9090/` does not)
 
-NOTE: In our example we are using a self signed CA that we generated, so the browser will likely complain about the
+NOTE: In the example we are using a self signed CA that we generated, so the browser will likely complain about the
 hostname not matching the certificate
 
 ## Setting up TLS on the Node exporter
