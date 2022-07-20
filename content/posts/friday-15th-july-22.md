@@ -126,6 +126,9 @@ metrics.
 The above was a good setup, but needs to be tested with public facing IP's and hostname's. Especially it would be
 interesting to see whether there is any checking of the client hostname when the certificate is presented.
 
+It would also be interesting whether we could add Basic Authentication in addition to mTLS on the endpoints, so that
+anyone connecting requires both the certificate and the password.
+
 ## References
 https://pkg.go.dev/crypto/tls
 
