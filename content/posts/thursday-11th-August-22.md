@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2022-08-11T11:21:35+12:00
 title = "Thursday and daily blogging"
 description = "Thursday 11th of August post"
