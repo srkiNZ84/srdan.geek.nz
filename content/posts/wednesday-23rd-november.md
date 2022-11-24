@@ -17,12 +17,12 @@ the courses covered C++, which I hadn't touched since university, but was becomi
 semi frequently in my new role.
 
 So, this was a "refresher" on the C++ world and where it had come to in the last 10 years or. The course I did can be
-found here: [https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/]
+found here: (https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/)[https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/]
 
 ## Course impression
 
 The course itself was fairly well organised in terms of being logical and easy to follow. I particularly liked the use
-of [Replit|https://replit.com/] which was great and was my first introduction to the in browser IDE.
+of (Replit)[https://replit.com/] which was great and was my first introduction to the in browser IDE.
 
 It did feel like for the author of the course, it might not have been his primary/first language.
 
@@ -34,7 +34,7 @@ sounds good, but it comes at the expense of there not being a clear/idiomatic wa
 that there are so many ways to include code files that the advice was to add "#ifndef LIB_FILE ..." at the top of each
 file to prevent including the same libraries/files multiple times. 
 
-Additionally, I found the syntax quite clunky (e.g. "->function()" vs ".function()") and verbose at times. 
+Additionally, I found the syntax quite clunky (e.g. "->function()" vs ".function()") and overly verbose at times. 
 
 There was also a bug where if a player picked up an "item", the definition of which looks like:
 ```
@@ -59,7 +59,7 @@ void Player::pickUpItem(item item) {
 ```
 for some reason the "damage" is increased by a random value (sometimes "6")?
 
-I've created a public Replit reproducing the issue here: [https://replit.com/@srkiNZ/TestingCPPInt?v=1]
+I've created a public Replit reproducing the issue here: (https://replit.com/@srkiNZ/TestingCPPInt?v=1)[https://replit.com/@srkiNZ/TestingCPPInt?v=1]
 
 I didn't get to the bottom of this one, however, it's unexpected behaviour like this that doesn't give much confidence
 around the safety of C++ as a language. The tradeoff is the performance and the portability.
