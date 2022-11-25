@@ -12,25 +12,25 @@
 <span class=tag><a href=/tags/zenva/>zenva</a></span>
 <span class=separator>•</span>
 <span class=tag><a href=/tags/learning/>learning</a></span></div></div></header><div><h1 id=zenva-learn-object-oriented-c-by-building-a-game>Zenva Learn Object-Oriented C++ by Building a Game
-<a class=heading-link href=#zenva-learn-object-oriented-c-by-building-a-game><i class="fa fa-link" aria-hidden=true></i></a></h1><p>A while ago I bought a bunch of Zenva programming courses from (Humble Bundle)[https://www.humblebundle.com/] as some of
+<a class=heading-link href=#zenva-learn-object-oriented-c-by-building-a-game><i class="fa fa-link" aria-hidden=true></i></a></h1><p>A while ago I bought a bunch of Zenva programming courses from <a href=https://www.humblebundle.com/>Humble Bundle</a> as some of
 the courses covered C++, which I hadn&rsquo;t touched since university, but was becoming a language that I was dealing with
 semi frequently in my new role.</p><p>So, this was a &ldquo;refresher&rdquo; on the C++ world and where it had come to in the last 10 years or. The course I did can be
 found here: <a href=https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/>https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/</a></p><h2 id=course-impression>Course impression
 <a class=heading-link href=#course-impression><i class="fa fa-link" aria-hidden=true></i></a></h2><p>The course itself was fairly well organised in terms of being logical and easy to follow. I particularly liked the use
-of (Replit)[https://replit.com/] which was great and was my first introduction to the in browser IDE.</p><p>It did feel like for the author of the course, it might not have been his primary/first language.</p><h2 id=c-impression>C++ impression
+of <a href=https://replit.com/>Replit</a> which was great and was my first introduction to the in browser IDE.</p><p>It did feel like for the author of the course, it might not have been his primary/first language.</p><h2 id=c-impression>C++ impression
 <a class=heading-link href=#c-impression><i class="fa fa-link" aria-hidden=true></i></a></h2><p>My impression of the C++ language after having not touched it for many years were not great. It feels like the language
 offers a massive amount of flexibility in terms of how to write particular bits of code/implement solutions, which
 sounds good, but it comes at the expense of there not being a clear/idiomatic way to do things. An example of this is
 that there are so many ways to include code files that the advice was to add &ldquo;#ifndef LIB_FILE &mldr;&rdquo; at the top of each
-file to prevent including the same libraries/files multiple times.</p><p>Additionally, I found the syntax quite clunky (e.g. &ldquo;->function()&rdquo; vs &ldquo;.function()&rdquo;) and overly verbose at times.</p><p>There was also a bug where if a player picked up an &ldquo;item&rdquo;, the definition of which looks like:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>struct item {
+file to prevent including the same libraries/files multiple times.</p><p>Additionally, I found the syntax quite clunky (e.g. &ldquo;->function()&rdquo; vs &ldquo;.function()&rdquo;) and overly verbose at times.</p><p>There was also a bug where if a player picked up an &ldquo;item&rdquo;, the definition of which looks like:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-C++ data-lang=C++><span style=display:flex><span><span style=font-weight:700>struct</span> <span style=font-weight:700>item</span> {
 </span></span><span style=display:flex><span>  std::string name;
-</span></span><span style=display:flex><span>  int damage;
-</span></span><span style=display:flex><span>  int health;
+</span></span><span style=display:flex><span>  <span>int</span> damage;
+</span></span><span style=display:flex><span>  <span>int</span> health;
 </span></span><span style=display:flex><span>};
-</span></span></code></pre></div><p>and has an instance like (note that damage property is left uninitialised):</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>  item healingPotion;
-</span></span><span style=display:flex><span>  healingPotion.name = &#34;Healing Potion&#34;;
+</span></span></code></pre></div><p>and has an instance like (note that damage property is left uninitialised):</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-C++ data-lang=C++><span style=display:flex><span>  item healingPotion;
+</span></span><span style=display:flex><span>  healingPotion.name = <span style=font-style:italic>&#34;Healing Potion&#34;</span>;
 </span></span><span style=display:flex><span>  healingPotion.health = 50;
-</span></span></code></pre></div><p>when you come to apply (or &ldquo;pick up&rdquo;) the item:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>void Player::pickUpItem(item item) { 
+</span></span></code></pre></div><p>when you come to apply (or &ldquo;pick up&rdquo;) the item:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-C++ data-lang=C++><span style=display:flex><span><span>void</span> Player::pickUpItem(item item) { 
 </span></span><span style=display:flex><span>  damage += item.damage;
 </span></span><span style=display:flex><span>  heal(item.health);
 </span></span><span style=display:flex><span>}
