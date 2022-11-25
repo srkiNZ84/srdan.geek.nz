@@ -12,12 +12,12 @@ series = []
 +++
 # Zenva Learn Object-Oriented C++ by Building a Game
 
-A while ago I bought a bunch of Zenva programming courses from [Humble Bundle|https://www.humblebundle.com/] as some of
+A while ago I bought a bunch of Zenva programming courses from (Humble Bundle)[https://www.humblebundle.com/] as some of
 the courses covered C++, which I hadn't touched since university, but was becoming a language that I was dealing with
 semi frequently in my new role.
 
 So, this was a "refresher" on the C++ world and where it had come to in the last 10 years or. The course I did can be
-found here: (https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/)[https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/]
+found here: <https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/>
 
 ## Course impression
 
@@ -59,7 +59,7 @@ void Player::pickUpItem(item item) {
 ```
 for some reason the "damage" is increased by a random value (sometimes "6")?
 
-I've created a public Replit reproducing the issue here: (https://replit.com/@srkiNZ/TestingCPPInt?v=1)[https://replit.com/@srkiNZ/TestingCPPInt?v=1]
+I've created a public Replit reproducing the issue here: <https://replit.com/@srkiNZ/TestingCPPInt?v=1>
 
 I didn't get to the bottom of this one, however, it's unexpected behaviour like this that doesn't give much confidence
 around the safety of C++ as a language. The tradeoff is the performance and the portability.
