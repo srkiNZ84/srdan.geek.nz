@@ -12,7 +12,7 @@ series = []
 +++
 # Zenva Learn Object-Oriented C++ by Building a Game
 
-A while ago I bought a bunch of Zenva programming courses from (Humble Bundle)[https://www.humblebundle.com/] as some of
+A while ago I bought a bunch of Zenva programming courses from [Humble Bundle](https://www.humblebundle.com/) as some of
 the courses covered C++, which I hadn't touched since university, but was becoming a language that I was dealing with
 semi frequently in my new role.
 
@@ -22,7 +22,7 @@ found here: <https://academy.zenva.com/product/learn-object-oriented-cpp-by-buil
 ## Course impression
 
 The course itself was fairly well organised in terms of being logical and easy to follow. I particularly liked the use
-of (Replit)[https://replit.com/] which was great and was my first introduction to the in browser IDE.
+of [Replit](https://replit.com/) which was great and was my first introduction to the in browser IDE.
 
 It did feel like for the author of the course, it might not have been his primary/first language.
 
@@ -37,7 +37,7 @@ file to prevent including the same libraries/files multiple times.
 Additionally, I found the syntax quite clunky (e.g. "->function()" vs ".function()") and overly verbose at times. 
 
 There was also a bug where if a player picked up an "item", the definition of which looks like:
-```
+```C++
 struct item {
   std::string name;
   int damage;
@@ -45,13 +45,13 @@ struct item {
 };
 ```
 and has an instance like (note that damage property is left uninitialised):
-```
+```C++
   item healingPotion;
   healingPotion.name = "Healing Potion";
   healingPotion.health = 50;
 ```
 when you come to apply (or "pick up") the item:
-```
+```C++
 void Player::pickUpItem(item item) { 
   damage += item.damage;
   heal(item.health);
