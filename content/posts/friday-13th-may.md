@@ -1,11 +1,11 @@
 +++ 
-draft = true
+draft = false
 date = 2022-05-13T16:05:14+12:00
 title = "Docker install in 2022"
 description = ""
 slug = ""
-authors = []
-tags = []
+authors = ["Srđan Đukić"]
+tags = ["docker", "ubuntu", "snap"]
 categories = []
 externalLink = ""
 series = []
