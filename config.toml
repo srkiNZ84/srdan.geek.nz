@@ -113,10 +113,10 @@ weight = 2
 url = "https://gitlab.com/srkiNZ/"
 
 [[params.social]]
-name = "Twitter"
-icon = "fa fa-twitter"
+name = "Mastodon"
+icon = "fa fa-mastodon"
 weight = 3
-url = "https://twitter.com/srkiNZ/"
+url = "https://mastodon.social/@srkinz"
 
 [[params.social]]
 name = "LinkedIn"
