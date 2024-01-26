@@ -17,5 +17,6 @@ one option is to use GitLab CI to generate and add the build jobs at "run time".
 
 This post shows how to do that using Python
 
-https://gitlab.com/srkiNZ/dynamic-pipeline-demo
+<https://gitlab.com/srkiNZ/dynamic-pipeline-demo>
 
+(also documented here: <https://docs.gitlab.com/ee/ci/pipelines/downstream_pipelines.html#dynamic-child-pipelines>)
