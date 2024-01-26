@@ -2,4 +2,6 @@
 Sample code to get the data out of a QRCode image using the OpenCV2 library is here.
 This should produce some output such as the following:
 otpauth://totp/Example%20Company%3AJohn.Doe%40example.com?secret=aaaabbbbcccceee1123m&amp;amp;issuer=Google
-we can then use the PyOTP library to extract the TOTP values as needed:</description></item></channel></rss>
+we can then use the PyOTP library to extract the TOTP values as needed:</description></item><item><title>GitLab CI workflow with Python Flask app</title><link>https://srdan.geek.nz/posts/friday-15th-september-23/</link><pubDate>Fri, 15 Sep 2023 10:51:47 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-september-23/</guid><description>GitLab CI workflow with Python Flask app Link to heading About Link to heading In this blog post we are going to learn about GitLab CI, specifically looking at Deploy/Release automation.
+We will be using a simple Python Flask app to do this, deploying to Google Cloud&amp;rsquo;s Cloud Run service.
+The post assumes that you have a GitLab account (to store our code and run the CI), a Google Cloud account (to have somewhere to deploy our code to) and Python and Docker installed locally.</description></item></channel></rss>
