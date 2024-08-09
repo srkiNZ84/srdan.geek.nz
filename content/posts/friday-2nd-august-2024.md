@@ -37,7 +37,10 @@ Now we can create the content by editing the created file:
 ```
 vim content/posts/[NAME_OF_FILE_HERE].md 
 ```
-In order to add images to the post and link them, we have to TODO:fill this out
+In order to add images to the post and link them, we have to put the images we want to reference under the `content/public/static` directory. Once that is done, we can reference them using a relative path like:
+```
+![some alt text here](../../static/name_of_image.png)
+```
 
 ## Review using a local server
 
