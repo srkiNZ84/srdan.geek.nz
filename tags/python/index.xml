@@ -1,7 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/python/</link><description>Recent content in Python on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 11 Jan 2024 10:37:52 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Reading TOTP QR codes with Python and OpenCV</title><link>https://srdan.geek.nz/posts/thursday-11th-january-24/</link><pubDate>Thu, 11 Jan 2024 10:37:52 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-january-24/</guid><description>Read a QR code and extract the data Link to heading In our case, we want to get the TOTP URL out of a QR code. Documentation for the OTP URL format can be found here on the Yubico website.
-Sample code to get the data out of a QRCode image using the OpenCV2 library is here.
-This should produce some output such as the following:
-otpauth://totp/Example%20Company%3AJohn.Doe%40example.com?secret=aaaabbbbcccceee1123m&amp;amp;issuer=Google
-we can then use the PyOTP library to extract the TOTP values as needed:</description></item><item><title>GitLab CI workflow with Python Flask app</title><link>https://srdan.geek.nz/posts/friday-15th-september-23/</link><pubDate>Fri, 15 Sep 2023 10:51:47 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-september-23/</guid><description>GitLab CI workflow with Python Flask app Link to heading About Link to heading In this blog post we are going to learn about GitLab CI, specifically looking at Deploy/Release automation.
-We will be using a simple Python Flask app to do this, deploying to Google Cloud&amp;rsquo;s Cloud Run service.
-The post assumes that you have a GitLab account (to store our code and run the CI), a Google Cloud account (to have somewhere to deploy our code to) and Python and Docker installed locally.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/python/</link><description>Recent content in Python on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 11 Jan 2024 10:37:52 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Reading TOTP QR codes with Python and OpenCV</title><link>https://srdan.geek.nz/posts/thursday-11th-january-24/</link><pubDate>Thu, 11 Jan 2024 10:37:52 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-january-24/</guid><description>&lt;h1 id="read-a-qr-code-and-extract-the-data">
+ Read a QR code and extract the data
+ &lt;a class="heading-link" href="#read-a-qr-code-and-extract-the-data">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;p>In our case, we want to get the TOTP URL out of a QR code. Documentation for the OTP URL format can be found &lt;a href="https://docs.yubico.com/yesdk/users-manual/application-oath/uri-string-format.html" class="external-link" target="_blank" rel="noopener">here on the Yubico website&lt;/a>.&lt;/p>
+&lt;p>Sample code to get the data out of a QRCode image using the OpenCV2 library is &lt;a href="https://gist.github.com/srkiNZ84/a0a634f69584f964b8226bb452e8a034" class="external-link" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;p>This should produce some output such as the following:&lt;/p>
+&lt;p>otpauth://totp/Example%20Company%3AJohn.Doe%40example.com?secret=aaaabbbbcccceee1123m&amp;amp;issuer=Google&lt;/p></description></item><item><title>GitLab CI workflow with Python Flask app</title><link>https://srdan.geek.nz/posts/friday-15th-september-23/</link><pubDate>Fri, 15 Sep 2023 10:51:47 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-september-23/</guid><description>&lt;h1 id="gitlab-ci--workflow-with-python-flask-app">
+ GitLab CI workflow with Python Flask app
+ &lt;a class="heading-link" href="#gitlab-ci--workflow-with-python-flask-app">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;h2 id="about">
+ About
+ &lt;a class="heading-link" href="#about">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>In this blog post we are going to learn about GitLab CI, specifically looking at Deploy/Release automation.&lt;/p>
+&lt;p>We will be using a simple &lt;a href="https://flask.palletsprojects.com/en/2.3.x/" class="external-link" target="_blank" rel="noopener">Python Flask&lt;/a> app to do this, deploying to
+&lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener">Google Cloud&lt;/a>&amp;rsquo;s &lt;a href="https://cloud.google.com/run?hl=en" class="external-link" target="_blank" rel="noopener">Cloud Run service&lt;/a>.&lt;/p>
+&lt;p>The post assumes that you have a &lt;a href="https://gitlab.com/" class="external-link" target="_blank" rel="noopener">GitLab&lt;/a> account (to store our code and run the CI), a &lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener">Google Cloud&lt;/a> account (to have somewhere to deploy our code to) and &lt;a href="https://www.python.org/" class="external-link" target="_blank" rel="noopener">Python&lt;/a> and &lt;a href="https://www.docker.com/" class="external-link" target="_blank" rel="noopener">Docker&lt;/a> installed locally.&lt;/p></description></item></channel></rss>

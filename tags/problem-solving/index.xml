@@ -1,3 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Problem Solving on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/problem-solving/</link><description>Recent content in Problem Solving on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 09:21:11 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/problem-solving/index.xml" rel="self" type="application/rss+xml"/><item><title>Read the requirements carefully</title><link>https://srdan.geek.nz/posts/tuesday-21st-june-22/</link><pubDate>Tue, 21 Jun 2022 09:21:11 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-21st-june-22/</guid><description>Reading the requirements Link to heading So, last night I couldn&amp;rsquo;t sleep and decided to hop onto hackerrank.com and have a go at attempting the divisible sum pairs problem:
-Given an array of integers and a positive integer k, determine the number of (i, j) pairs where i &amp;lt; j and ar[i] + ar[j] is divisible by k.
-It looked fairly straight forward and in fact I was pretty sure that I had attempted a problem like it previously.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Problem Solving on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/problem-solving/</link><description>Recent content in Problem Solving on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 09:21:11 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/problem-solving/index.xml" rel="self" type="application/rss+xml"/><item><title>Read the requirements carefully</title><link>https://srdan.geek.nz/posts/tuesday-21st-june-22/</link><pubDate>Tue, 21 Jun 2022 09:21:11 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-21st-june-22/</guid><description>&lt;h1 id="reading-the-requirements">
+ Reading the requirements
+ &lt;a class="heading-link" href="#reading-the-requirements">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;p>So, last night I couldn&amp;rsquo;t sleep and decided to hop onto hackerrank.com and have a go at attempting the &lt;a href="https://www.hackerrank.com/challenges/divisible-sum-pairs/" class="external-link" target="_blank" rel="noopener">divisible sum
+pairs&lt;/a> problem:&lt;/p>
+&lt;blockquote>
+&lt;p>Given an array of integers and a positive integer &lt;em>k&lt;/em>, determine the number of (&lt;em>i&lt;/em>, &lt;em>j&lt;/em>) pairs where &lt;em>i&lt;/em> &amp;lt; &lt;em>j&lt;/em> and &lt;em>ar[i]&lt;/em> + &lt;em>ar[j]&lt;/em> is divisible by &lt;em>k&lt;/em>.&lt;/p>
+&lt;/blockquote>
+&lt;p>It looked fairly straight forward and in fact I was pretty sure that I had attempted a problem like it previously. So, I
+had a go at a first draft of the code, had some simple loop issues, to be expected and then passed the first test case!
+Yay!&lt;/p></description></item></channel></rss>
