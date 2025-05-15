@@ -8,8 +8,7 @@
 &lt;p>So, last night I couldn&amp;rsquo;t sleep and decided to hop onto hackerrank.com and have a go at attempting the &lt;a href="https://www.hackerrank.com/challenges/divisible-sum-pairs/" class="external-link" target="_blank" rel="noopener">divisible sum
 pairs&lt;/a> problem:&lt;/p>
 &lt;blockquote>
-&lt;p>Given an array of integers and a positive integer &lt;em>k&lt;/em>, determine the number of (&lt;em>i&lt;/em>, &lt;em>j&lt;/em>) pairs where &lt;em>i&lt;/em> &amp;lt; &lt;em>j&lt;/em> and &lt;em>ar[i]&lt;/em> + &lt;em>ar[j]&lt;/em> is divisible by &lt;em>k&lt;/em>.&lt;/p>
-&lt;/blockquote>
+&lt;p>Given an array of integers and a positive integer &lt;em>k&lt;/em>, determine the number of (&lt;em>i&lt;/em>, &lt;em>j&lt;/em>) pairs where &lt;em>i&lt;/em> &amp;lt; &lt;em>j&lt;/em> and &lt;em>ar[i]&lt;/em> + &lt;em>ar[j]&lt;/em> is divisible by &lt;em>k&lt;/em>.&lt;/p>&lt;/blockquote>
 &lt;p>It looked fairly straight forward and in fact I was pretty sure that I had attempted a problem like it previously. So, I
 had a go at a first draft of the code, had some simple loop issues, to be expected and then passed the first test case!
 Yay!&lt;/p></description></item></channel></rss>
