@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aws on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/aws/</link><description>Recent content in Aws on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 28 Sep 2021 22:01:55 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/aws/index.xml" rel="self" type="application/rss+xml"/><item><title>The rise of K8s for infrastructure management</title><link>https://srdan.geek.nz/posts/tuesday-28th-sept/</link><pubDate>Tue, 28 Sep 2021 22:01:55 +1300</pubDate><guid>https://srdan.geek.nz/posts/tuesday-28th-sept/</guid><description>&lt;h1 id="the-rise-of-k8s-for-infrastructure-management">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Aws on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/aws/</link><description>Recent content in Aws on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 15 May 2025 16:21:23 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/aws/index.xml" rel="self" type="application/rss+xml"/><item><title>Efficiency of Lambda languages</title><link>https://srdan.geek.nz/posts/thursday-15th-may/</link><pubDate>Thu, 15 May 2025 16:21:23 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-15th-may/</guid><description>&lt;h1 id="efficiency-of-lambda-languages">
+ Efficiency of Lambda languages
+ &lt;a class="heading-link" href="#efficiency-of-lambda-languages">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;p>Today I read &lt;a href="https://xebia.com/blog/aws-lambda-benchmarking/" class="external-link" target="_blank" rel="noopener">this article&lt;/a> in which the author designs a (fairly)
+simple system of Lambda functions and then proceeds to implement the system functions using different languages. I
+believe that the aim of the &amp;ldquo;experiment&amp;rdquo; is to:&lt;/p>
+&lt;ul>
+&lt;li>verify whether the choice of language makes a difference to the costs of the system&lt;/li>
+&lt;li>if so, to what extent it makes a difference&lt;/li>
+&lt;/ul>
+&lt;p>The languages compared are Scala, Python, Rust and TypeScript, mainly looking at the associated Lambda costs for
+each system/language.&lt;/p></description></item><item><title>The rise of K8s for infrastructure management</title><link>https://srdan.geek.nz/posts/tuesday-28th-sept/</link><pubDate>Tue, 28 Sep 2021 22:01:55 +1300</pubDate><guid>https://srdan.geek.nz/posts/tuesday-28th-sept/</guid><description>&lt;h1 id="the-rise-of-k8s-for-infrastructure-management">
  The rise of K8s for infrastructure management
  &lt;a class="heading-link" href="#the-rise-of-k8s-for-infrastructure-management">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
