@@ -12,7 +12,7 @@ series = []
 +++
 # Currently Reading
 
-I am currently reading the [https://yoshi389111.github.io/kinokobooks/soft_en/index.html](97 Things Every Software Architect Should Know)
+I am currently reading the [97 Things Every Software Architect Should Know](https://yoshi389111.github.io/kinokobooks/soft_en/index.html)
 that someone has linked to and it's not bad at all. Some really good snippets, some are a bit of a miss.
 
 I am also trying to finish reading the [BHP book](https://www.goodreads.com/book/show/54716652-black-hat-python), I have given up trying
