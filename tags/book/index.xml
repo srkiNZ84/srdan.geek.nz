@@ -5,7 +5,7 @@
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
 &lt;/h1>
-&lt;p>I am currently reading the [https://yoshi389111.github.io/kinokobooks/soft_en/index.html](97 Things Every Software Architect Should Know)
+&lt;p>I am currently reading the &lt;a href="https://yoshi389111.github.io/kinokobooks/soft_en/index.html" class="external-link" target="_blank" rel="noopener">97 Things Every Software Architect Should Know&lt;/a>
 that someone has linked to and it&amp;rsquo;s not bad at all. Some really good snippets, some are a bit of a miss.&lt;/p>
 &lt;p>I am also trying to finish reading the &lt;a href="https://www.goodreads.com/book/show/54716652-black-hat-python" class="external-link" target="_blank" rel="noopener">BHP book&lt;/a>, I have given up trying
 to follow along with all of the code examples. I should really finish this one before picking up any new non-fiction books, but the 97
