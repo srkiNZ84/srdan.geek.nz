@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2025-05-27T12:05:08+12:00
-title = ""
+title = "Good article about graceful shutdown with Go"
 description = ""
 slug = ""
 authors = ["Srđan Đukić"]
@@ -13,7 +13,8 @@ series = []
 # Good graceful shutdown article
 
 Just finished reading a good article about [graceful
-shutdown](https://victoriametrics.com/blog/go-graceful-shutdown/index.html) in Golang.
+shutdown](https://victoriametrics.com/blog/go-graceful-shutdown/index.html) and OS
+signal handling in [Golang](https://go.dev/).
 
 Was really good and a reminder of all of the things we lerarned when first started
 using Kubernetes in 2015-2016.
