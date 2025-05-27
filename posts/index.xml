@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Home of Srđan Đukić</title><link>https://srdan.geek.nz/posts/</link><description>Recent content in Posts on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 22 May 2025 16:29:38 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Great Information Security resources</title><link>https://srdan.geek.nz/posts/thursday-22nd-may-2025/</link><pubDate>Thu, 22 May 2025 16:29:38 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-22nd-may-2025/</guid><description>&lt;h1 id="great-infosec-resources">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Home of Srđan Đukić</title><link>https://srdan.geek.nz/posts/</link><description>Recent content in Posts on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 27 May 2025 12:05:08 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/posts/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</link><pubDate>Tue, 27 May 2025 12:05:08 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</guid><description>&lt;h1 id="good-graceful-shutdown-article">
+ Good graceful shutdown article
+ &lt;a class="heading-link" href="#good-graceful-shutdown-article">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;p>Just finished reading a good article about &lt;a href="https://victoriametrics.com/blog/go-graceful-shutdown/index.html" class="external-link" target="_blank" rel="noopener">graceful
+shutdown&lt;/a> in Golang.&lt;/p>
+&lt;p>Was really good and a reminder of all of the things we lerarned when first started
+using Kubernetes in 2015-2016.&lt;/p>
+&lt;p>Good discussion about it on &lt;a href="https://news.ycombinator.com/item?id=43889610" class="external-link" target="_blank" rel="noopener">HackerNews&lt;/a>
+as well.&lt;/p>
+&lt;p>Made me think I want to develop a test suite for the graceful shutdown for the sample
+code. Also lead to some other reading:&lt;/p></description></item><item><title>Great Information Security resources</title><link>https://srdan.geek.nz/posts/thursday-22nd-may-2025/</link><pubDate>Thu, 22 May 2025 16:29:38 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-22nd-may-2025/</guid><description>&lt;h1 id="great-infosec-resources">
  Great InfoSec resources
  &lt;a class="heading-link" href="#great-infosec-resources">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
