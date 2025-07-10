@@ -34,3 +34,6 @@ jobs:
           publish_dir: ./public
           cname: srdan.geek.nz
 
+      - name: Test
+        uses: actions/checkout@v3
+        run: curl -s -o /dev/null -I -w "%{http_code}" https://srdan.geek.nz  
