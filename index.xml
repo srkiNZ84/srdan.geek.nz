@@ -119,21 +119,39 @@ semi frequently in my new role.&lt;/p>
 found here: &lt;a href="https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/" class="external-link" target="_blank" rel="noopener">https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/&lt;/a>&lt;/p></description></item><item><title>Friday 12th August 22</title><link>https://srdan.geek.nz/posts/friday-12th-august-22/</link><pubDate>Fri, 12 Aug 2022 10:19:26 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-12th-august-22/</guid><description>&lt;ul>
 &lt;li>HackerRank &lt;a href="https://www.hackerrank.com/challenges/electronics-shop/problem" class="external-link" target="_blank" rel="noopener">electronics shop problem&lt;/a>:&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span style="display:flex;">&lt;span>&lt;span style="font-weight:bold">func&lt;/span> getMoneySpent(keyboards []int32, drives []int32, b int32) int32 {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> maxSpend := -1
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">for&lt;/span> _, k := range(keyboards){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">for&lt;/span> _, d := range(drives){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> price := &lt;span style="font-weight:bold">int&lt;/span>(k + d)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">if&lt;/span> price &amp;lt;= &lt;span style="font-weight:bold">int&lt;/span>(b) &amp;amp;&amp;amp; price &amp;gt; maxSpend {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> maxSpend = price
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">return&lt;/span> int32(maxSpend)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Surprisingly got this on the first go. HackerRank using &amp;ldquo;int32&amp;rdquo; everywhere is annoying as it means typecasting all over
-the place&lt;/p></description></item><item><title>Thursday and daily blogging</title><link>https://srdan.geek.nz/posts/thursday-11th-august-22/</link><pubDate>Thu, 11 Aug 2022 11:21:35 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-august-22/</guid><description>&lt;h1 id="a-random-thursday-in-august">
+&lt;pre tabindex="0">&lt;code>func getMoneySpent(keyboards []int32, drives []int32, b int32) int32 {
+ maxSpend := -1
+ 
+ for _, k := range(keyboards){
+ for _, d := range(drives){
+ price := int(k + d)
+ if price &amp;lt;= int(b) &amp;amp;&amp;amp; price &amp;gt; maxSpend {
+ maxSpend = price
+ }
+ }
+ }
+ return int32(maxSpend)
+}
+&lt;/code>&lt;/pre>&lt;p>Surprisingly got this on the first go. HackerRank using &amp;ldquo;int32&amp;rdquo; everywhere is annoying as it means typecasting all over
+the place&lt;/p>
+&lt;ul>
+&lt;li>HackerRank &lt;a href="https://www.hackerrank.com/challenges/cats-and-a-mouse/problem" class="external-link" target="_blank" rel="noopener">cats and a mouse problem&lt;/a>:&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>func catAndMouse(x int32, y int32, z int32) string {
+ aDist := math.Abs(float64(z - x))
+ bDist := math.Abs(float64(z - y))
+ 
+ if (aDist == bDist){
+ return &amp;#34;Mouse C&amp;#34;
+ } else if (aDist &amp;lt; bDist) {
+ return &amp;#34;Cat A&amp;#34;
+ } else {
+ return &amp;#34;Cat B&amp;#34;
+ }
+}
+&lt;/code>&lt;/pre>&lt;p>This one was frustrating due to type casting as well, but not because of HackerRank, but because of Go&amp;rsquo;s math.Abs
+function, which apparently can&amp;rsquo;t figure out what to do with an int? Though, it looks like it might have had auto-casting
+before, but no longer does.&lt;/p></description></item><item><title>Thursday and daily blogging</title><link>https://srdan.geek.nz/posts/thursday-11th-august-22/</link><pubDate>Thu, 11 Aug 2022 11:21:35 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-august-22/</guid><description>&lt;h1 id="a-random-thursday-in-august">
  A random Thursday in August
  &lt;a class="heading-link" href="#a-random-thursday-in-august">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
@@ -149,20 +167,20 @@ decided to start blogging regularly about all the big and small achievements eve
 &lt;ul>
 &lt;li>&lt;a href="https://www.hackerrank.com/challenges/drawing-book/problem" class="external-link" target="_blank" rel="noopener">Drawing Book&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span style="display:flex;">&lt;span>&lt;span style="font-weight:bold">func&lt;/span> pageCount(n int32, p int32) int32 {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> numBuckets := n/2
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> bucketNumber := p/2
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> wayFromBack := numBuckets - bucketNumber
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">if&lt;/span> (bucketNumber &amp;lt; wayFromBack){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">return&lt;/span> bucketNumber
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="font-weight:bold">else&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">return&lt;/span> wayFromBack
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Which was surprisingly easy in the end, but for some reason I massively over-thought it when I first looked at it. Also
+&lt;pre tabindex="0">&lt;code>func pageCount(n int32, p int32) int32 {
+
+ numBuckets := n/2
+ 
+ bucketNumber := p/2
+ 
+ wayFromBack := numBuckets - bucketNumber
+ if (bucketNumber &amp;lt; wayFromBack){
+ return bucketNumber
+ } else {
+ return wayFromBack
+ }
+}
+&lt;/code>&lt;/pre>&lt;p>Which was surprisingly easy in the end, but for some reason I massively over-thought it when I first looked at it. Also
 &amp;ldquo;buckets&amp;rdquo; was a weird choice of naming looking at it now.&lt;/p></description></item><item><title>Setting up Mutual TLS with Prometheus</title><link>https://srdan.geek.nz/posts/friday-15th-july-22/</link><pubDate>Thu, 14 Jul 2022 16:48:56 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-july-22/</guid><description>&lt;h2 id="about">
  About
  &lt;a class="heading-link" href="#about">

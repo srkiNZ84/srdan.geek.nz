@@ -14,18 +14,18 @@ decided to start blogging regularly about all the big and small achievements eve
 &lt;ul>
 &lt;li>&lt;a href="https://www.hackerrank.com/challenges/drawing-book/problem" class="external-link" target="_blank" rel="noopener">Drawing Book&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span style="display:flex;">&lt;span>&lt;span style="font-weight:bold">func&lt;/span> pageCount(n int32, p int32) int32 {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> numBuckets := n/2
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> bucketNumber := p/2
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> wayFromBack := numBuckets - bucketNumber
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">if&lt;/span> (bucketNumber &amp;lt; wayFromBack){
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">return&lt;/span> bucketNumber
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="font-weight:bold">else&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="font-weight:bold">return&lt;/span> wayFromBack
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Which was surprisingly easy in the end, but for some reason I massively over-thought it when I first looked at it. Also
+&lt;pre tabindex="0">&lt;code>func pageCount(n int32, p int32) int32 {
+
+ numBuckets := n/2
+ 
+ bucketNumber := p/2
+ 
+ wayFromBack := numBuckets - bucketNumber
+ if (bucketNumber &amp;lt; wayFromBack){
+ return bucketNumber
+ } else {
+ return wayFromBack
+ }
+}
+&lt;/code>&lt;/pre>&lt;p>Which was surprisingly easy in the end, but for some reason I massively over-thought it when I first looked at it. Also
 &amp;ldquo;buckets&amp;rdquo; was a weird choice of naming looking at it now.&lt;/p></description></item></channel></rss>
