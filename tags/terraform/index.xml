@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terraform on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/terraform/</link><description>Recent content in Terraform on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 11 Oct 2021 22:51:06 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/terraform/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform and deduplication</title><link>https://srdan.geek.nz/posts/monday-11th-october/</link><pubDate>Mon, 11 Oct 2021 22:51:06 +1300</pubDate><guid>https://srdan.geek.nz/posts/monday-11th-october/</guid><description>&lt;h1 id="terraform-and-deduplication">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terraform on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/terraform/</link><description>Recent content in Terraform on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 11 Oct 2021 22:51:06 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/terraform/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform and deduplication</title><link>https://srdan.geek.nz/posts/monday-11th-october/</link><pubDate>Mon, 11 Oct 2021 22:51:06 +1300</pubDate><guid>https://srdan.geek.nz/posts/monday-11th-october/</guid><description>&lt;h1 id="terraform-and-deduplication"&gt;
  Terraform and deduplication
- &lt;a class="heading-link" href="#terraform-and-deduplication">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>One of the issues I hit today was Terraform not picking up that I had declared an IAM policy for the same SNS topic in two different places. In fact it took me a long time to figure out what was going on as Terraform decided to use one of the policies and I couldn&amp;rsquo;t understand why the changes I was making were not being reflected at plan/apply time.&lt;/p></description></item></channel></rss>
+ &lt;a class="heading-link" href="#terraform-and-deduplication"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;One of the issues I hit today was Terraform not picking up that I had declared an IAM policy for the same SNS topic in two different places. In fact it took me a long time to figure out what was going on as Terraform decided to use one of the policies and I couldn&amp;rsquo;t understand why the changes I was making were not being reflected at plan/apply time.&lt;/p&gt;</description></item></channel></rss>

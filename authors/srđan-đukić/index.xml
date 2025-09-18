@@ -1,138 +1,138 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Srđan Đukić on Home of Srđan Đukić</title><link>https://srdan.geek.nz/authors/sr%C4%91an-%C4%91uki%C4%87/</link><description>Recent content in Srđan Đukić on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 27 May 2025 12:05:08 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/authors/sr%C4%91an-%C4%91uki%C4%87/index.xml" rel="self" type="application/rss+xml"/><item><title>Good article about graceful shutdown with Go</title><link>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</link><pubDate>Tue, 27 May 2025 12:05:08 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</guid><description>&lt;h1 id="good-graceful-shutdown-article">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Srđan Đukić on Home of Srđan Đukić</title><link>https://srdan.geek.nz/authors/sr%C4%91an-%C4%91uki%C4%87/</link><description>Recent content in Srđan Đukić on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 27 May 2025 12:05:08 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/authors/sr%C4%91an-%C4%91uki%C4%87/index.xml" rel="self" type="application/rss+xml"/><item><title>Good article about graceful shutdown with Go</title><link>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</link><pubDate>Tue, 27 May 2025 12:05:08 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</guid><description>&lt;h1 id="good-graceful-shutdown-article"&gt;
  Good graceful shutdown article
- &lt;a class="heading-link" href="#good-graceful-shutdown-article">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>Just finished reading a good article about &lt;a href="https://victoriametrics.com/blog/go-graceful-shutdown/index.html" class="external-link" target="_blank" rel="noopener">graceful
-shutdown&lt;/a> and OS
-signal handling in &lt;a href="https://go.dev/" class="external-link" target="_blank" rel="noopener">Golang&lt;/a>.&lt;/p>
-&lt;p>Was really good and a reminder of all of the things we lerarned when first started
-using Kubernetes in 2015-2016.&lt;/p>
-&lt;p>Good discussion about it on &lt;a href="https://news.ycombinator.com/item?id=43889610" class="external-link" target="_blank" rel="noopener">HackerNews&lt;/a>
-as well.&lt;/p>
-&lt;p>Made me think I want to develop a test suite for the graceful shutdown for the sample
-code. Also lead to some other reading:&lt;/p></description></item><item><title>Great Information Security resources</title><link>https://srdan.geek.nz/posts/thursday-22nd-may-2025/</link><pubDate>Thu, 22 May 2025 16:29:38 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-22nd-may-2025/</guid><description>&lt;h1 id="great-infosec-resources">
+ &lt;a class="heading-link" href="#good-graceful-shutdown-article"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Just finished reading a good article about &lt;a href="https://victoriametrics.com/blog/go-graceful-shutdown/index.html" class="external-link" target="_blank" rel="noopener"&gt;graceful
+shutdown&lt;/a&gt; and OS
+signal handling in &lt;a href="https://go.dev/" class="external-link" target="_blank" rel="noopener"&gt;Golang&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Was really good and a reminder of all of the things we lerarned when first started
+using Kubernetes in 2015-2016.&lt;/p&gt;
+&lt;p&gt;Good discussion about it on &lt;a href="https://news.ycombinator.com/item?id=43889610" class="external-link" target="_blank" rel="noopener"&gt;HackerNews&lt;/a&gt;
+as well.&lt;/p&gt;
+&lt;p&gt;Made me think I want to develop a test suite for the graceful shutdown for the sample
+code. Also lead to some other reading:&lt;/p&gt;</description></item><item><title>Great Information Security resources</title><link>https://srdan.geek.nz/posts/thursday-22nd-may-2025/</link><pubDate>Thu, 22 May 2025 16:29:38 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-22nd-may-2025/</guid><description>&lt;h1 id="great-infosec-resources"&gt;
  Great InfoSec resources
- &lt;a class="heading-link" href="#great-infosec-resources">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>Portswigger Academy - &lt;a href="https://portswigger.net/web-security/all-labs" class="external-link" target="_blank" rel="noopener">https://portswigger.net/web-security/all-labs&lt;/a>&lt;/p>
-&lt;p>Google CSP Evaluator - &lt;a href="https://csp-evaluator.withgoogle.com" class="external-link" target="_blank" rel="noopener">https://csp-evaluator.withgoogle.com&lt;/a>&lt;/p>
-&lt;p>Security Trails - &lt;a href="https://securitytrails.com" class="external-link" target="_blank" rel="noopener">https://securitytrails.com&lt;/a>&lt;/p>
-&lt;p>Dehashed - &lt;a href="https://dehashed.com" class="external-link" target="_blank" rel="noopener">https://dehashed.com&lt;/a>&lt;/p>
-&lt;p>Have I been pwned - &lt;a href="https://haveibeenpwned.com/" class="external-link" target="_blank" rel="noopener">https://haveibeenpwned.com/&lt;/a>&lt;/p></description></item><item><title>Reading - 97 Things Every Software Architect Should Know</title><link>https://srdan.geek.nz/posts/friday-16th-may-2025/</link><pubDate>Fri, 16 May 2025 14:57:10 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-16th-may-2025/</guid><description>&lt;h1 id="currently-reading">
+ &lt;a class="heading-link" href="#great-infosec-resources"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Portswigger Academy - &lt;a href="https://portswigger.net/web-security/all-labs" class="external-link" target="_blank" rel="noopener"&gt;https://portswigger.net/web-security/all-labs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google CSP Evaluator - &lt;a href="https://csp-evaluator.withgoogle.com" class="external-link" target="_blank" rel="noopener"&gt;https://csp-evaluator.withgoogle.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Security Trails - &lt;a href="https://securitytrails.com" class="external-link" target="_blank" rel="noopener"&gt;https://securitytrails.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dehashed - &lt;a href="https://dehashed.com" class="external-link" target="_blank" rel="noopener"&gt;https://dehashed.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Have I been pwned - &lt;a href="https://haveibeenpwned.com/" class="external-link" target="_blank" rel="noopener"&gt;https://haveibeenpwned.com/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Reading - 97 Things Every Software Architect Should Know</title><link>https://srdan.geek.nz/posts/friday-16th-may-2025/</link><pubDate>Fri, 16 May 2025 14:57:10 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-16th-may-2025/</guid><description>&lt;h1 id="currently-reading"&gt;
  Currently Reading
- &lt;a class="heading-link" href="#currently-reading">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>I am currently reading the &lt;a href="https://yoshi389111.github.io/kinokobooks/soft_en/index.html" class="external-link" target="_blank" rel="noopener">97 Things Every Software Architect Should Know&lt;/a>
-that someone has linked to and it&amp;rsquo;s not bad at all. Some really good snippets, some are a bit of a miss.&lt;/p>
-&lt;p>I am also trying to finish reading the &lt;a href="https://www.goodreads.com/book/show/54716652-black-hat-python" class="external-link" target="_blank" rel="noopener">BHP book&lt;/a>, I have given up trying
+ &lt;a class="heading-link" href="#currently-reading"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;I am currently reading the &lt;a href="https://yoshi389111.github.io/kinokobooks/soft_en/index.html" class="external-link" target="_blank" rel="noopener"&gt;97 Things Every Software Architect Should Know&lt;/a&gt;
+that someone has linked to and it&amp;rsquo;s not bad at all. Some really good snippets, some are a bit of a miss.&lt;/p&gt;
+&lt;p&gt;I am also trying to finish reading the &lt;a href="https://www.goodreads.com/book/show/54716652-black-hat-python" class="external-link" target="_blank" rel="noopener"&gt;BHP book&lt;/a&gt;, I have given up trying
 to follow along with all of the code examples. I should really finish this one before picking up any new non-fiction books, but the 97
-Things&amp;hellip; is just so digestible.&lt;/p></description></item><item><title>Efficiency of Lambda languages</title><link>https://srdan.geek.nz/posts/thursday-15th-may/</link><pubDate>Thu, 15 May 2025 16:21:23 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-15th-may/</guid><description>&lt;h1 id="efficiency-of-lambda-languages">
+Things&amp;hellip; is just so digestible.&lt;/p&gt;</description></item><item><title>Efficiency of Lambda languages</title><link>https://srdan.geek.nz/posts/thursday-15th-may/</link><pubDate>Thu, 15 May 2025 16:21:23 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-15th-may/</guid><description>&lt;h1 id="efficiency-of-lambda-languages"&gt;
  Efficiency of Lambda languages
- &lt;a class="heading-link" href="#efficiency-of-lambda-languages">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>Today I read &lt;a href="https://xebia.com/blog/aws-lambda-benchmarking/" class="external-link" target="_blank" rel="noopener">this article&lt;/a> in which the author designs a (fairly)
+ &lt;a class="heading-link" href="#efficiency-of-lambda-languages"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Today I read &lt;a href="https://xebia.com/blog/aws-lambda-benchmarking/" class="external-link" target="_blank" rel="noopener"&gt;this article&lt;/a&gt; in which the author designs a (fairly)
 simple system of Lambda functions and then proceeds to implement the system functions using different languages. I
-believe that the aim of the &amp;ldquo;experiment&amp;rdquo; is to:&lt;/p>
-&lt;ul>
-&lt;li>verify whether the choice of language makes a difference to the costs of the system&lt;/li>
-&lt;li>if so, to what extent it makes a difference&lt;/li>
-&lt;/ul>
-&lt;p>The languages compared are Scala, Python, Rust and TypeScript, mainly looking at the associated Lambda costs for
-each system/language.&lt;/p></description></item><item><title>Creating new Hugo blog posts</title><link>https://srdan.geek.nz/posts/friday-2nd-august-2024/</link><pubDate>Fri, 02 Aug 2024 18:38:39 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-2nd-august-2024/</guid><description>&lt;h1 id="how-i-create-new-blog-posts">
+believe that the aim of the &amp;ldquo;experiment&amp;rdquo; is to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;verify whether the choice of language makes a difference to the costs of the system&lt;/li&gt;
+&lt;li&gt;if so, to what extent it makes a difference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The languages compared are Scala, Python, Rust and TypeScript, mainly looking at the associated Lambda costs for
+each system/language.&lt;/p&gt;</description></item><item><title>Creating new Hugo blog posts</title><link>https://srdan.geek.nz/posts/friday-2nd-august-2024/</link><pubDate>Fri, 02 Aug 2024 18:38:39 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-2nd-august-2024/</guid><description>&lt;h1 id="how-i-create-new-blog-posts"&gt;
  How I create new blog posts
- &lt;a class="heading-link" href="#how-i-create-new-blog-posts">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>So, this is in a way a &amp;ldquo;meta&amp;rdquo; article about how I create new blog posts. It&amp;rsquo;s me mostly being kind to my future self by
-documenting how to create a new blog post.&lt;/p>
-&lt;h2 id="the-command-to-create-the-post">
+ &lt;a class="heading-link" href="#how-i-create-new-blog-posts"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;So, this is in a way a &amp;ldquo;meta&amp;rdquo; article about how I create new blog posts. It&amp;rsquo;s me mostly being kind to my future self by
+documenting how to create a new blog post.&lt;/p&gt;
+&lt;h2 id="the-command-to-create-the-post"&gt;
  The command to create the post
- &lt;a class="heading-link" href="#the-command-to-create-the-post">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>The command to create the new post is:&lt;/p></description></item><item><title>Offline first Mobile apps with HTML5</title><link>https://srdan.geek.nz/posts/thursday-7th-march-2024/</link><pubDate>Thu, 07 Mar 2024 11:23:08 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-7th-march-2024/</guid><description>&lt;h1 id="review-of-offline-first-mobile-apps-with-html5">
+ &lt;a class="heading-link" href="#the-command-to-create-the-post"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The command to create the new post is:&lt;/p&gt;</description></item><item><title>Offline first Mobile apps with HTML5</title><link>https://srdan.geek.nz/posts/thursday-7th-march-2024/</link><pubDate>Thu, 07 Mar 2024 11:23:08 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-7th-march-2024/</guid><description>&lt;h1 id="review-of-offline-first-mobile-apps-with-html5"&gt;
  Review of Offline first Mobile apps with HTML5
- &lt;a class="heading-link" href="#review-of-offline-first-mobile-apps-with-html5">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>Something to know about me is that I regularly follow the &lt;a href="https://www.humblebundle.com/" class="external-link" target="_blank" rel="noopener">Humble Bundle&lt;/a>
-bundles, particularly the technology/programming ones.&lt;/p>
-&lt;p>Some time ago I purchased one of the bundles that came with access to a bunch of Pluralsight courses. The course titled
-&lt;a href="https://www.pluralsight.com/courses/html5-creating-offline-first-mobile-apps" class="external-link" target="_blank" rel="noopener">Creating Offline-first Mobile Apps with
-HTML5&lt;/a> in particular caught my eye and I
-signed up and started going through the course.&lt;/p></description></item><item><title>Reading TOTP QR codes with Python and OpenCV</title><link>https://srdan.geek.nz/posts/thursday-11th-january-24/</link><pubDate>Thu, 11 Jan 2024 10:37:52 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-january-24/</guid><description>&lt;h1 id="read-a-qr-code-and-extract-the-data">
+ &lt;a class="heading-link" href="#review-of-offline-first-mobile-apps-with-html5"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Something to know about me is that I regularly follow the &lt;a href="https://www.humblebundle.com/" class="external-link" target="_blank" rel="noopener"&gt;Humble Bundle&lt;/a&gt;
+bundles, particularly the technology/programming ones.&lt;/p&gt;
+&lt;p&gt;Some time ago I purchased one of the bundles that came with access to a bunch of Pluralsight courses. The course titled
+&lt;a href="https://www.pluralsight.com/courses/html5-creating-offline-first-mobile-apps" class="external-link" target="_blank" rel="noopener"&gt;Creating Offline-first Mobile Apps with
+HTML5&lt;/a&gt; in particular caught my eye and I
+signed up and started going through the course.&lt;/p&gt;</description></item><item><title>Reading TOTP QR codes with Python and OpenCV</title><link>https://srdan.geek.nz/posts/thursday-11th-january-24/</link><pubDate>Thu, 11 Jan 2024 10:37:52 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-january-24/</guid><description>&lt;h1 id="read-a-qr-code-and-extract-the-data"&gt;
  Read a QR code and extract the data
- &lt;a class="heading-link" href="#read-a-qr-code-and-extract-the-data">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>In our case, we want to get the TOTP URL out of a QR code. Documentation for the OTP URL format can be found &lt;a href="https://docs.yubico.com/yesdk/users-manual/application-oath/uri-string-format.html" class="external-link" target="_blank" rel="noopener">here on the Yubico website&lt;/a>.&lt;/p>
-&lt;p>Sample code to get the data out of a QRCode image using the OpenCV2 library is &lt;a href="https://gist.github.com/srkiNZ84/a0a634f69584f964b8226bb452e8a034" class="external-link" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
-&lt;p>This should produce some output such as the following:&lt;/p>
-&lt;p>otpauth://totp/Example%20Company%3AJohn.Doe%40example.com?secret=aaaabbbbcccceee1123m&amp;amp;issuer=Google&lt;/p></description></item><item><title>GitLab CI workflow with Python Flask app</title><link>https://srdan.geek.nz/posts/friday-15th-september-23/</link><pubDate>Fri, 15 Sep 2023 10:51:47 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-september-23/</guid><description>&lt;h1 id="gitlab-ci--workflow-with-python-flask-app">
+ &lt;a class="heading-link" href="#read-a-qr-code-and-extract-the-data"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;In our case, we want to get the TOTP URL out of a QR code. Documentation for the OTP URL format can be found &lt;a href="https://docs.yubico.com/yesdk/users-manual/application-oath/uri-string-format.html" class="external-link" target="_blank" rel="noopener"&gt;here on the Yubico website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sample code to get the data out of a QRCode image using the OpenCV2 library is &lt;a href="https://gist.github.com/srkiNZ84/a0a634f69584f964b8226bb452e8a034" class="external-link" target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This should produce some output such as the following:&lt;/p&gt;
+&lt;p&gt;otpauth://totp/Example%20Company%3AJohn.Doe%40example.com?secret=aaaabbbbcccceee1123m&amp;amp;issuer=Google&lt;/p&gt;</description></item><item><title>GitLab CI workflow with Python Flask app</title><link>https://srdan.geek.nz/posts/friday-15th-september-23/</link><pubDate>Fri, 15 Sep 2023 10:51:47 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-september-23/</guid><description>&lt;h1 id="gitlab-ci--workflow-with-python-flask-app"&gt;
  GitLab CI workflow with Python Flask app
- &lt;a class="heading-link" href="#gitlab-ci--workflow-with-python-flask-app">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;h2 id="about">
+ &lt;a class="heading-link" href="#gitlab-ci--workflow-with-python-flask-app"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="about"&gt;
  About
- &lt;a class="heading-link" href="#about">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>In this blog post we are going to learn about GitLab CI, specifically looking at Deploy/Release automation.&lt;/p>
-&lt;p>We will be using a simple &lt;a href="https://flask.palletsprojects.com/en/2.3.x/" class="external-link" target="_blank" rel="noopener">Python Flask&lt;/a> app to do this, deploying to
-&lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener">Google Cloud&lt;/a>&amp;rsquo;s &lt;a href="https://cloud.google.com/run?hl=en" class="external-link" target="_blank" rel="noopener">Cloud Run service&lt;/a>.&lt;/p>
-&lt;p>The post assumes that you have a &lt;a href="https://gitlab.com/" class="external-link" target="_blank" rel="noopener">GitLab&lt;/a> account (to store our code and run the CI), a &lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener">Google Cloud&lt;/a> account (to have somewhere to deploy our code to) and &lt;a href="https://www.python.org/" class="external-link" target="_blank" rel="noopener">Python&lt;/a> and &lt;a href="https://www.docker.com/" class="external-link" target="_blank" rel="noopener">Docker&lt;/a> installed locally.&lt;/p></description></item><item><title>Zenva Object Oriented C++ course</title><link>https://srdan.geek.nz/posts/wednesday-23rd-november/</link><pubDate>Wed, 23 Nov 2022 15:21:18 +1300</pubDate><guid>https://srdan.geek.nz/posts/wednesday-23rd-november/</guid><description>&lt;h1 id="zenva-learn-object-oriented-c-by-building-a-game">
+ &lt;a class="heading-link" href="#about"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In this blog post we are going to learn about GitLab CI, specifically looking at Deploy/Release automation.&lt;/p&gt;
+&lt;p&gt;We will be using a simple &lt;a href="https://flask.palletsprojects.com/en/2.3.x/" class="external-link" target="_blank" rel="noopener"&gt;Python Flask&lt;/a&gt; app to do this, deploying to
+&lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener"&gt;Google Cloud&lt;/a&gt;&amp;rsquo;s &lt;a href="https://cloud.google.com/run?hl=en" class="external-link" target="_blank" rel="noopener"&gt;Cloud Run service&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The post assumes that you have a &lt;a href="https://gitlab.com/" class="external-link" target="_blank" rel="noopener"&gt;GitLab&lt;/a&gt; account (to store our code and run the CI), a &lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener"&gt;Google Cloud&lt;/a&gt; account (to have somewhere to deploy our code to) and &lt;a href="https://www.python.org/" class="external-link" target="_blank" rel="noopener"&gt;Python&lt;/a&gt; and &lt;a href="https://www.docker.com/" class="external-link" target="_blank" rel="noopener"&gt;Docker&lt;/a&gt; installed locally.&lt;/p&gt;</description></item><item><title>Zenva Object Oriented C++ course</title><link>https://srdan.geek.nz/posts/wednesday-23rd-november/</link><pubDate>Wed, 23 Nov 2022 15:21:18 +1300</pubDate><guid>https://srdan.geek.nz/posts/wednesday-23rd-november/</guid><description>&lt;h1 id="zenva-learn-object-oriented-c-by-building-a-game"&gt;
  Zenva Learn Object-Oriented C++ by Building a Game
- &lt;a class="heading-link" href="#zenva-learn-object-oriented-c-by-building-a-game">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>A while ago I bought a bunch of Zenva programming courses from &lt;a href="https://www.humblebundle.com/" class="external-link" target="_blank" rel="noopener">Humble Bundle&lt;/a> as some of
+ &lt;a class="heading-link" href="#zenva-learn-object-oriented-c-by-building-a-game"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A while ago I bought a bunch of Zenva programming courses from &lt;a href="https://www.humblebundle.com/" class="external-link" target="_blank" rel="noopener"&gt;Humble Bundle&lt;/a&gt; as some of
 the courses covered C++, which I hadn&amp;rsquo;t touched since university, but was becoming a language that I was dealing with
-semi frequently in my new role.&lt;/p>
-&lt;p>So, this was a &amp;ldquo;refresher&amp;rdquo; on the C++ world and where it had come to in the last 10 years or. The course I did can be
-found here: &lt;a href="https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/" class="external-link" target="_blank" rel="noopener">https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/&lt;/a>&lt;/p></description></item><item><title>Thursday and daily blogging</title><link>https://srdan.geek.nz/posts/thursday-11th-august-22/</link><pubDate>Thu, 11 Aug 2022 11:21:35 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-august-22/</guid><description>&lt;h1 id="a-random-thursday-in-august">
+semi frequently in my new role.&lt;/p&gt;
+&lt;p&gt;So, this was a &amp;ldquo;refresher&amp;rdquo; on the C++ world and where it had come to in the last 10 years or. The course I did can be
+found here: &lt;a href="https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/" class="external-link" target="_blank" rel="noopener"&gt;https://academy.zenva.com/product/learn-object-oriented-cpp-by-building-a-game/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Thursday and daily blogging</title><link>https://srdan.geek.nz/posts/thursday-11th-august-22/</link><pubDate>Thu, 11 Aug 2022 11:21:35 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-august-22/</guid><description>&lt;h1 id="a-random-thursday-in-august"&gt;
  A random Thursday in August
- &lt;a class="heading-link" href="#a-random-thursday-in-august">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>So, in order to try and slay my own demons of procrastination and a general feeling of not achieving anything, I&amp;rsquo;ve
-decided to start blogging regularly about all the big and small achievements every day.&lt;/p>
-&lt;p>Today I:&lt;/p>
-&lt;ul>
-&lt;li>Solved two basic HackerRank exercises:&lt;/li>
-&lt;/ul>
-&lt;ul>
-&lt;li>&lt;a href="https://www.hackerrank.com/challenges/drawing-book/problem" class="external-link" target="_blank" rel="noopener">Drawing Book&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;pre tabindex="0">&lt;code>func pageCount(n int32, p int32) int32 {
+ &lt;a class="heading-link" href="#a-random-thursday-in-august"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;So, in order to try and slay my own demons of procrastination and a general feeling of not achieving anything, I&amp;rsquo;ve
+decided to start blogging regularly about all the big and small achievements every day.&lt;/p&gt;
+&lt;p&gt;Today I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solved two basic HackerRank exercises:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hackerrank.com/challenges/drawing-book/problem" class="external-link" target="_blank" rel="noopener"&gt;Drawing Book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;func pageCount(n int32, p int32) int32 {
 
  numBuckets := n/2
  
@@ -145,132 +145,132 @@ decided to start blogging regularly about all the big and small achievements eve
  return wayFromBack
  }
 }
-&lt;/code>&lt;/pre>&lt;p>Which was surprisingly easy in the end, but for some reason I massively over-thought it when I first looked at it. Also
-&amp;ldquo;buckets&amp;rdquo; was a weird choice of naming looking at it now.&lt;/p></description></item><item><title>Setting up Mutual TLS with Prometheus</title><link>https://srdan.geek.nz/posts/friday-15th-july-22/</link><pubDate>Thu, 14 Jul 2022 16:48:56 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-july-22/</guid><description>&lt;h2 id="about">
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Which was surprisingly easy in the end, but for some reason I massively over-thought it when I first looked at it. Also
+&amp;ldquo;buckets&amp;rdquo; was a weird choice of naming looking at it now.&lt;/p&gt;</description></item><item><title>Setting up Mutual TLS with Prometheus</title><link>https://srdan.geek.nz/posts/friday-15th-july-22/</link><pubDate>Thu, 14 Jul 2022 16:48:56 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-july-22/</guid><description>&lt;h2 id="about"&gt;
  About
- &lt;a class="heading-link" href="#about">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>So, recently I was tasked with trying to securely enable metrics collection from servers which did not have a
-private/management IP, only a publicly routable IP address.&lt;/p>
-&lt;p>This was a challenge in that if we are going to expose metrics over the public internet, security becomes a much bigger
-focus.&lt;/p>
-&lt;p>While it was tempting to rely on a single mechanism to restrict access (such as firewall rules to only allow connections
+ &lt;a class="heading-link" href="#about"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;So, recently I was tasked with trying to securely enable metrics collection from servers which did not have a
+private/management IP, only a publicly routable IP address.&lt;/p&gt;
+&lt;p&gt;This was a challenge in that if we are going to expose metrics over the public internet, security becomes a much bigger
+focus.&lt;/p&gt;
+&lt;p&gt;While it was tempting to rely on a single mechanism to restrict access (such as firewall rules to only allow connections
 from the Prometheus server), experience has taught us that it&amp;rsquo;s much better to not assume that any single mechanism will
-work all the time (see: &lt;a href="https://en.wikipedia.org/wiki/Swiss_cheese_model" class="external-link" target="_blank" rel="noopener">Swiss Cheese Model&lt;/a>). Instead we should adopt
-several security mecahnisms such that if a single one fails, others will pick it up (also called &amp;ldquo;Defence in Depth&amp;rdquo;).&lt;/p></description></item><item><title>Generating CA and certificates with CFSSL</title><link>https://srdan.geek.nz/posts/thursday-14th-july-22/</link><pubDate>Thu, 14 Jul 2022 12:08:24 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-14th-july-22/</guid><description>&lt;h1 id="generating-a-ca-and-signing-certificates-with-cfssl">
+work all the time (see: &lt;a href="https://en.wikipedia.org/wiki/Swiss_cheese_model" class="external-link" target="_blank" rel="noopener"&gt;Swiss Cheese Model&lt;/a&gt;). Instead we should adopt
+several security mecahnisms such that if a single one fails, others will pick it up (also called &amp;ldquo;Defence in Depth&amp;rdquo;).&lt;/p&gt;</description></item><item><title>Generating CA and certificates with CFSSL</title><link>https://srdan.geek.nz/posts/thursday-14th-july-22/</link><pubDate>Thu, 14 Jul 2022 12:08:24 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-14th-july-22/</guid><description>&lt;h1 id="generating-a-ca-and-signing-certificates-with-cfssl"&gt;
  Generating a CA and signing certificates with CFSSL
- &lt;a class="heading-link" href="#generating-a-ca-and-signing-certificates-with-cfssl">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;h2 id="about">
+ &lt;a class="heading-link" href="#generating-a-ca-and-signing-certificates-with-cfssl"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="about"&gt;
  About
- &lt;a class="heading-link" href="#about">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;h3 id="background">
+ &lt;a class="heading-link" href="#about"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="background"&gt;
  Background
- &lt;a class="heading-link" href="#background">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h3>
-&lt;p>Recently I was trying to setup an example mutual TLS configuration between Prometheus (the server) and Node Exporter. In doing so I
+ &lt;a class="heading-link" href="#background"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Recently I was trying to setup an example mutual TLS configuration between Prometheus (the server) and Node Exporter. In doing so I
 used OpenSSL to generate a CA and certificates for Prometheus and then have the Node exporter trust any client
-certificates signed by the CA.&lt;/p></description></item><item><title>Read the requirements carefully</title><link>https://srdan.geek.nz/posts/tuesday-21st-june-22/</link><pubDate>Tue, 21 Jun 2022 09:21:11 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-21st-june-22/</guid><description>&lt;h1 id="reading-the-requirements">
+certificates signed by the CA.&lt;/p&gt;</description></item><item><title>Read the requirements carefully</title><link>https://srdan.geek.nz/posts/tuesday-21st-june-22/</link><pubDate>Tue, 21 Jun 2022 09:21:11 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-21st-june-22/</guid><description>&lt;h1 id="reading-the-requirements"&gt;
  Reading the requirements
- &lt;a class="heading-link" href="#reading-the-requirements">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>So, last night I couldn&amp;rsquo;t sleep and decided to hop onto hackerrank.com and have a go at attempting the &lt;a href="https://www.hackerrank.com/challenges/divisible-sum-pairs/" class="external-link" target="_blank" rel="noopener">divisible sum
-pairs&lt;/a> problem:&lt;/p>
-&lt;blockquote>
-&lt;p>Given an array of integers and a positive integer &lt;em>k&lt;/em>, determine the number of (&lt;em>i&lt;/em>, &lt;em>j&lt;/em>) pairs where &lt;em>i&lt;/em> &amp;lt; &lt;em>j&lt;/em> and &lt;em>ar[i]&lt;/em> + &lt;em>ar[j]&lt;/em> is divisible by &lt;em>k&lt;/em>.&lt;/p>&lt;/blockquote>
-&lt;p>It looked fairly straight forward and in fact I was pretty sure that I had attempted a problem like it previously. So, I
+ &lt;a class="heading-link" href="#reading-the-requirements"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;So, last night I couldn&amp;rsquo;t sleep and decided to hop onto hackerrank.com and have a go at attempting the &lt;a href="https://www.hackerrank.com/challenges/divisible-sum-pairs/" class="external-link" target="_blank" rel="noopener"&gt;divisible sum
+pairs&lt;/a&gt; problem:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Given an array of integers and a positive integer &lt;em&gt;k&lt;/em&gt;, determine the number of (&lt;em&gt;i&lt;/em&gt;, &lt;em&gt;j&lt;/em&gt;) pairs where &lt;em&gt;i&lt;/em&gt; &amp;lt; &lt;em&gt;j&lt;/em&gt; and &lt;em&gt;ar[i]&lt;/em&gt; + &lt;em&gt;ar[j]&lt;/em&gt; is divisible by &lt;em&gt;k&lt;/em&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It looked fairly straight forward and in fact I was pretty sure that I had attempted a problem like it previously. So, I
 had a go at a first draft of the code, had some simple loop issues, to be expected and then passed the first test case!
-Yay!&lt;/p></description></item><item><title>Docker install in 2022</title><link>https://srdan.geek.nz/posts/friday-13th-may/</link><pubDate>Fri, 13 May 2022 16:05:14 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-13th-may/</guid><description>&lt;p>#How to Install Docker in 2022&lt;/p>
-&lt;p>So, assuming that you only need the CLI, don&amp;rsquo;t need the K8s, you should just follow the guide here:&lt;/p>
-&lt;p>&lt;a href="https://docs.docker.com/engine/install/ubuntu/" class="external-link" target="_blank" rel="noopener">https://docs.docker.com/engine/install/ubuntu/&lt;/a>&lt;/p>
-&lt;p>Avoid the snap as it has issues with outbound access from running containers.&lt;/p></description></item><item><title>Creating SSHFP records</title><link>https://srdan.geek.nz/posts/monday-1st-february-22/</link><pubDate>Tue, 01 Feb 2022 11:32:46 +1300</pubDate><guid>https://srdan.geek.nz/posts/monday-1st-february-22/</guid><description>&lt;h1 id="how-to-setup-sshfp-records-to-verify-ssh-fingerprints">
+Yay!&lt;/p&gt;</description></item><item><title>Docker install in 2022</title><link>https://srdan.geek.nz/posts/friday-13th-may/</link><pubDate>Fri, 13 May 2022 16:05:14 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-13th-may/</guid><description>&lt;p&gt;#How to Install Docker in 2022&lt;/p&gt;
+&lt;p&gt;So, assuming that you only need the CLI, don&amp;rsquo;t need the K8s, you should just follow the guide here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.docker.com/engine/install/ubuntu/" class="external-link" target="_blank" rel="noopener"&gt;https://docs.docker.com/engine/install/ubuntu/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Avoid the snap as it has issues with outbound access from running containers.&lt;/p&gt;</description></item><item><title>Creating SSHFP records</title><link>https://srdan.geek.nz/posts/monday-1st-february-22/</link><pubDate>Tue, 01 Feb 2022 11:32:46 +1300</pubDate><guid>https://srdan.geek.nz/posts/monday-1st-february-22/</guid><description>&lt;h1 id="how-to-setup-sshfp-records-to-verify-ssh-fingerprints"&gt;
  How to setup SSHFP records to verify SSH fingerprints
- &lt;a class="heading-link" href="#how-to-setup-sshfp-records-to-verify-ssh-fingerprints">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;h2 id="what-are-sshfp-records-and-what-problem-are-we-trying-to-solve">
+ &lt;a class="heading-link" href="#how-to-setup-sshfp-records-to-verify-ssh-fingerprints"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="what-are-sshfp-records-and-what-problem-are-we-trying-to-solve"&gt;
  What are SSHFP records and what problem are we trying to solve?
- &lt;a class="heading-link" href="#what-are-sshfp-records-and-what-problem-are-we-trying-to-solve">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>NOTE: Feel free to skip this part if you know what &lt;a href="https://en.wikipedia.com/wiki/SSHFP_record" class="external-link" target="_blank" rel="noopener">SSHFP records&lt;/a> are and want to get to the instructions&lt;/p>
-&lt;p>So, you might have noticed that every time you connect to a server over SSH you get a message like this:&lt;/p></description></item><item><title>Terraform and deduplication</title><link>https://srdan.geek.nz/posts/monday-11th-october/</link><pubDate>Mon, 11 Oct 2021 22:51:06 +1300</pubDate><guid>https://srdan.geek.nz/posts/monday-11th-october/</guid><description>&lt;h1 id="terraform-and-deduplication">
+ &lt;a class="heading-link" href="#what-are-sshfp-records-and-what-problem-are-we-trying-to-solve"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;NOTE: Feel free to skip this part if you know what &lt;a href="https://en.wikipedia.com/wiki/SSHFP_record" class="external-link" target="_blank" rel="noopener"&gt;SSHFP records&lt;/a&gt; are and want to get to the instructions&lt;/p&gt;
+&lt;p&gt;So, you might have noticed that every time you connect to a server over SSH you get a message like this:&lt;/p&gt;</description></item><item><title>Terraform and deduplication</title><link>https://srdan.geek.nz/posts/monday-11th-october/</link><pubDate>Mon, 11 Oct 2021 22:51:06 +1300</pubDate><guid>https://srdan.geek.nz/posts/monday-11th-october/</guid><description>&lt;h1 id="terraform-and-deduplication"&gt;
  Terraform and deduplication
- &lt;a class="heading-link" href="#terraform-and-deduplication">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>One of the issues I hit today was Terraform not picking up that I had declared an IAM policy for the same SNS topic in two different places. In fact it took me a long time to figure out what was going on as Terraform decided to use one of the policies and I couldn&amp;rsquo;t understand why the changes I was making were not being reflected at plan/apply time.&lt;/p></description></item><item><title>Learn Go with Tests book</title><link>https://srdan.geek.nz/posts/thursday-7th-october/</link><pubDate>Thu, 07 Oct 2021 23:08:40 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-7th-october/</guid><description>&lt;h1 id="learning-go-with-tests-book">
+ &lt;a class="heading-link" href="#terraform-and-deduplication"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;One of the issues I hit today was Terraform not picking up that I had declared an IAM policy for the same SNS topic in two different places. In fact it took me a long time to figure out what was going on as Terraform decided to use one of the policies and I couldn&amp;rsquo;t understand why the changes I was making were not being reflected at plan/apply time.&lt;/p&gt;</description></item><item><title>Learn Go with Tests book</title><link>https://srdan.geek.nz/posts/thursday-7th-october/</link><pubDate>Thu, 07 Oct 2021 23:08:40 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-7th-october/</guid><description>&lt;h1 id="learning-go-with-tests-book"&gt;
  Learning Go with Tests book
- &lt;a class="heading-link" href="#learning-go-with-tests-book">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>About a year and a half ago, I started learning the Go programming language using this excellent &lt;a href="https://www.udemy.com/course/go-the-complete-developers-guide/" class="external-link" target="_blank" rel="noopener">Udemy course&lt;/a>. This was good as a language introduction and allowed me to learn all the features of the language and how it worked under the hood. However, by itself I don&amp;rsquo;t really feel I got a massive amount from that course.&lt;/p></description></item><item><title>What is Bazel?</title><link>https://srdan.geek.nz/posts/saturday-2nd-october/</link><pubDate>Sat, 02 Oct 2021 22:28:48 +1300</pubDate><guid>https://srdan.geek.nz/posts/saturday-2nd-october/</guid><description>&lt;h1 id="what-is-bazel">
+ &lt;a class="heading-link" href="#learning-go-with-tests-book"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;About a year and a half ago, I started learning the Go programming language using this excellent &lt;a href="https://www.udemy.com/course/go-the-complete-developers-guide/" class="external-link" target="_blank" rel="noopener"&gt;Udemy course&lt;/a&gt;. This was good as a language introduction and allowed me to learn all the features of the language and how it worked under the hood. However, by itself I don&amp;rsquo;t really feel I got a massive amount from that course.&lt;/p&gt;</description></item><item><title>What is Bazel?</title><link>https://srdan.geek.nz/posts/saturday-2nd-october/</link><pubDate>Sat, 02 Oct 2021 22:28:48 +1300</pubDate><guid>https://srdan.geek.nz/posts/saturday-2nd-october/</guid><description>&lt;h1 id="what-is-bazel"&gt;
  What is Bazel?
- &lt;a class="heading-link" href="#what-is-bazel">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>Recently I read &lt;a href="https://eng.uber.com/go-monorepo-bazel/" class="external-link" target="_blank" rel="noopener">an article&lt;/a> from the Uber engineering team about how they are using Bazel on their Go monorepo. This prompted me to take a look at Bazel and what it does differently to other build systems.&lt;/p>
-&lt;p>&lt;a href="https://bazel.build/" class="external-link" target="_blank" rel="noopener">Bazel&lt;/a> is an open source build and test tool that originally came from Google. The main reasons why you might want to use it instead of the plethora of other build/test tools out there is that is optimised to do dependency management between libraries and services/binaries, regardless of language or framework. As such, it is arguably the perfect tool if you are implementing a polyglot microservice architecture that you version in a single monorepo. Think being able to &amp;ldquo;fan out, fan in&amp;rdquo; efficiently across many different services.&lt;/p></description></item><item><title>Team Topologies Book Review</title><link>https://srdan.geek.nz/posts/friday-1st-october/</link><pubDate>Fri, 01 Oct 2021 23:17:55 +1300</pubDate><guid>https://srdan.geek.nz/posts/friday-1st-october/</guid><description>&lt;h1 id="team-topologies">
+ &lt;a class="heading-link" href="#what-is-bazel"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Recently I read &lt;a href="https://eng.uber.com/go-monorepo-bazel/" class="external-link" target="_blank" rel="noopener"&gt;an article&lt;/a&gt; from the Uber engineering team about how they are using Bazel on their Go monorepo. This prompted me to take a look at Bazel and what it does differently to other build systems.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://bazel.build/" class="external-link" target="_blank" rel="noopener"&gt;Bazel&lt;/a&gt; is an open source build and test tool that originally came from Google. The main reasons why you might want to use it instead of the plethora of other build/test tools out there is that is optimised to do dependency management between libraries and services/binaries, regardless of language or framework. As such, it is arguably the perfect tool if you are implementing a polyglot microservice architecture that you version in a single monorepo. Think being able to &amp;ldquo;fan out, fan in&amp;rdquo; efficiently across many different services.&lt;/p&gt;</description></item><item><title>Team Topologies Book Review</title><link>https://srdan.geek.nz/posts/friday-1st-october/</link><pubDate>Fri, 01 Oct 2021 23:17:55 +1300</pubDate><guid>https://srdan.geek.nz/posts/friday-1st-october/</guid><description>&lt;h1 id="team-topologies"&gt;
  Team Topologies
- &lt;a class="heading-link" href="#team-topologies">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>I recently read the &lt;a href="https://www.goodreads.com/book/show/43572685-team-topologies" class="external-link" target="_blank" rel="noopener">Team Topologies&lt;/a> book, which I think was excellent. Specifically, for me, it did a great job of taking a lot of concepts around organising teams that I&amp;rsquo;ve seen startups and other fast moving companies use (i.e. a platform team as an internal product team) and formalised them into a framework.&lt;/p>
-&lt;p>While I don&amp;rsquo;t think anything in the book itself was particularly novel, the authors did a terrific job in distilling and simplifying the knowledge, by describing the problem, the technique to remedy the issue and why it &amp;ldquo;works&amp;rdquo;.&lt;/p></description></item><item><title>Docker Container image scanning</title><link>https://srdan.geek.nz/posts/wednesday-29th-sept/</link><pubDate>Wed, 29 Sep 2021 21:59:32 +1300</pubDate><guid>https://srdan.geek.nz/posts/wednesday-29th-sept/</guid><description>&lt;h1 id="docker-container-image-scanning">
+ &lt;a class="heading-link" href="#team-topologies"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;I recently read the &lt;a href="https://www.goodreads.com/book/show/43572685-team-topologies" class="external-link" target="_blank" rel="noopener"&gt;Team Topologies&lt;/a&gt; book, which I think was excellent. Specifically, for me, it did a great job of taking a lot of concepts around organising teams that I&amp;rsquo;ve seen startups and other fast moving companies use (i.e. a platform team as an internal product team) and formalised them into a framework.&lt;/p&gt;
+&lt;p&gt;While I don&amp;rsquo;t think anything in the book itself was particularly novel, the authors did a terrific job in distilling and simplifying the knowledge, by describing the problem, the technique to remedy the issue and why it &amp;ldquo;works&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Docker Container image scanning</title><link>https://srdan.geek.nz/posts/wednesday-29th-sept/</link><pubDate>Wed, 29 Sep 2021 21:59:32 +1300</pubDate><guid>https://srdan.geek.nz/posts/wednesday-29th-sept/</guid><description>&lt;h1 id="docker-container-image-scanning"&gt;
  Docker Container image scanning
- &lt;a class="heading-link" href="#docker-container-image-scanning">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>Some time ago, I wrote &lt;a href="https://clearpoint.digital/devops/patches-arent-just-for-pirates-%E2%98%A0-vulnerability-scanning-docker-images-with-coreos-clair-and-klar/" class="external-link" target="_blank" rel="noopener">an article&lt;/a> talking about the state of container scanning as it became clear that container images were going to have to be patched and the process was going to have to be managed just the same as we do for Linux boxes.&lt;/p>
-&lt;p>Recently, the question came up again at work after a colleague rightly balked at the integrated Azure Container Registry option (Azure Defender for ACR) &lt;a href="https://azure.microsoft.com/en-gb/pricing/details/azure-defender/" class="external-link" target="_blank" rel="noopener">costing ~$0.44NZD every time you want to scan an image&lt;/a>. As such, this post is an attempt to summarise the state of container scanning and the avaible options at time of writing, with a focus on open source solutions that are easy to use and integrate into CI.&lt;/p></description></item><item><title>The rise of K8s for infrastructure management</title><link>https://srdan.geek.nz/posts/tuesday-28th-sept/</link><pubDate>Tue, 28 Sep 2021 22:01:55 +1300</pubDate><guid>https://srdan.geek.nz/posts/tuesday-28th-sept/</guid><description>&lt;h1 id="the-rise-of-k8s-for-infrastructure-management">
+ &lt;a class="heading-link" href="#docker-container-image-scanning"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Some time ago, I wrote &lt;a href="https://clearpoint.digital/devops/patches-arent-just-for-pirates-%E2%98%A0-vulnerability-scanning-docker-images-with-coreos-clair-and-klar/" class="external-link" target="_blank" rel="noopener"&gt;an article&lt;/a&gt; talking about the state of container scanning as it became clear that container images were going to have to be patched and the process was going to have to be managed just the same as we do for Linux boxes.&lt;/p&gt;
+&lt;p&gt;Recently, the question came up again at work after a colleague rightly balked at the integrated Azure Container Registry option (Azure Defender for ACR) &lt;a href="https://azure.microsoft.com/en-gb/pricing/details/azure-defender/" class="external-link" target="_blank" rel="noopener"&gt;costing ~$0.44NZD every time you want to scan an image&lt;/a&gt;. As such, this post is an attempt to summarise the state of container scanning and the avaible options at time of writing, with a focus on open source solutions that are easy to use and integrate into CI.&lt;/p&gt;</description></item><item><title>The rise of K8s for infrastructure management</title><link>https://srdan.geek.nz/posts/tuesday-28th-sept/</link><pubDate>Tue, 28 Sep 2021 22:01:55 +1300</pubDate><guid>https://srdan.geek.nz/posts/tuesday-28th-sept/</guid><description>&lt;h1 id="the-rise-of-k8s-for-infrastructure-management"&gt;
  The rise of K8s for infrastructure management
- &lt;a class="heading-link" href="#the-rise-of-k8s-for-infrastructure-management">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>One of the typically overlooked aspects of moving to microservice architecture in general (and specificallyK8s for the purposes of this article) is the fact that each service &amp;ldquo;owns&amp;rdquo; its own datastore. Unless constrained by costs, this means a fully managed datastore instance (e.g. RDS). Once we accept that the service owns and manages the creation, upgrades etc&amp;hellip; of its own datastore, it then becomes logical to store the &amp;ldquo;infrastructure code&amp;rdquo; for this next to the application code (i.e. in the same repository). This is good as it really gives the team responsible a sense of autonomy of their own infrastructure and, currently, likely looks like a bunch of Terraform files in a directory in version control, next to the application code.&lt;/p></description></item><item><title>My Second Post</title><link>https://srdan.geek.nz/posts/my-second-post/</link><pubDate>Mon, 27 Sep 2021 22:36:10 +1300</pubDate><guid>https://srdan.geek.nz/posts/my-second-post/</guid><description>&lt;h1 id="second-post">
+ &lt;a class="heading-link" href="#the-rise-of-k8s-for-infrastructure-management"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;One of the typically overlooked aspects of moving to microservice architecture in general (and specificallyK8s for the purposes of this article) is the fact that each service &amp;ldquo;owns&amp;rdquo; its own datastore. Unless constrained by costs, this means a fully managed datastore instance (e.g. RDS). Once we accept that the service owns and manages the creation, upgrades etc&amp;hellip; of its own datastore, it then becomes logical to store the &amp;ldquo;infrastructure code&amp;rdquo; for this next to the application code (i.e. in the same repository). This is good as it really gives the team responsible a sense of autonomy of their own infrastructure and, currently, likely looks like a bunch of Terraform files in a directory in version control, next to the application code.&lt;/p&gt;</description></item><item><title>My Second Post</title><link>https://srdan.geek.nz/posts/my-second-post/</link><pubDate>Mon, 27 Sep 2021 22:36:10 +1300</pubDate><guid>https://srdan.geek.nz/posts/my-second-post/</guid><description>&lt;h1 id="second-post"&gt;
  Second Post
- &lt;a class="heading-link" href="#second-post">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>Hi Again. Trying out the GitHub Actions triggers to rebuild and publish Hugo to the correct branch.&lt;/p></description></item><item><title>My first post</title><link>https://srdan.geek.nz/posts/my-first-post/</link><pubDate>Sat, 25 Sep 2021 21:58:46 +1200</pubDate><guid>https://srdan.geek.nz/posts/my-first-post/</guid><description>&lt;h1 id="hello-world">
+ &lt;a class="heading-link" href="#second-post"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Hi Again. Trying out the GitHub Actions triggers to rebuild and publish Hugo to the correct branch.&lt;/p&gt;</description></item><item><title>My first post</title><link>https://srdan.geek.nz/posts/my-first-post/</link><pubDate>Sat, 25 Sep 2021 21:58:46 +1200</pubDate><guid>https://srdan.geek.nz/posts/my-first-post/</guid><description>&lt;h1 id="hello-world"&gt;
  Hello World!
- &lt;a class="heading-link" href="#hello-world">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>Hi! This is my first blog post.&lt;/p></description></item></channel></rss>
+ &lt;a class="heading-link" href="#hello-world"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Hi! This is my first blog post.&lt;/p&gt;</description></item></channel></rss>

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/go/</link><description>Recent content in Go on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 07 Oct 2021 23:08:40 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/go/index.xml" rel="self" type="application/rss+xml"/><item><title>Learn Go with Tests book</title><link>https://srdan.geek.nz/posts/thursday-7th-october/</link><pubDate>Thu, 07 Oct 2021 23:08:40 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-7th-october/</guid><description>&lt;h1 id="learning-go-with-tests-book">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/go/</link><description>Recent content in Go on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 07 Oct 2021 23:08:40 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/go/index.xml" rel="self" type="application/rss+xml"/><item><title>Learn Go with Tests book</title><link>https://srdan.geek.nz/posts/thursday-7th-october/</link><pubDate>Thu, 07 Oct 2021 23:08:40 +1300</pubDate><guid>https://srdan.geek.nz/posts/thursday-7th-october/</guid><description>&lt;h1 id="learning-go-with-tests-book"&gt;
  Learning Go with Tests book
- &lt;a class="heading-link" href="#learning-go-with-tests-book">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>About a year and a half ago, I started learning the Go programming language using this excellent &lt;a href="https://www.udemy.com/course/go-the-complete-developers-guide/" class="external-link" target="_blank" rel="noopener">Udemy course&lt;/a>. This was good as a language introduction and allowed me to learn all the features of the language and how it worked under the hood. However, by itself I don&amp;rsquo;t really feel I got a massive amount from that course.&lt;/p></description></item></channel></rss>
+ &lt;a class="heading-link" href="#learning-go-with-tests-book"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;About a year and a half ago, I started learning the Go programming language using this excellent &lt;a href="https://www.udemy.com/course/go-the-complete-developers-guide/" class="external-link" target="_blank" rel="noopener"&gt;Udemy course&lt;/a&gt;. This was good as a language introduction and allowed me to learn all the features of the language and how it worked under the hood. However, by itself I don&amp;rsquo;t really feel I got a massive amount from that course.&lt;/p&gt;</description></item></channel></rss>

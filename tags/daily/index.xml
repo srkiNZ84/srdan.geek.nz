@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daily on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/daily/</link><description>Recent content in Daily on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 11 Aug 2022 11:21:35 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/daily/index.xml" rel="self" type="application/rss+xml"/><item><title>Thursday and daily blogging</title><link>https://srdan.geek.nz/posts/thursday-11th-august-22/</link><pubDate>Thu, 11 Aug 2022 11:21:35 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-august-22/</guid><description>&lt;h1 id="a-random-thursday-in-august">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Daily on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/daily/</link><description>Recent content in Daily on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 11 Aug 2022 11:21:35 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/daily/index.xml" rel="self" type="application/rss+xml"/><item><title>Thursday and daily blogging</title><link>https://srdan.geek.nz/posts/thursday-11th-august-22/</link><pubDate>Thu, 11 Aug 2022 11:21:35 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-11th-august-22/</guid><description>&lt;h1 id="a-random-thursday-in-august"&gt;
  A random Thursday in August
- &lt;a class="heading-link" href="#a-random-thursday-in-august">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;p>So, in order to try and slay my own demons of procrastination and a general feeling of not achieving anything, I&amp;rsquo;ve
-decided to start blogging regularly about all the big and small achievements every day.&lt;/p>
-&lt;p>Today I:&lt;/p>
-&lt;ul>
-&lt;li>Solved two basic HackerRank exercises:&lt;/li>
-&lt;/ul>
-&lt;ul>
-&lt;li>&lt;a href="https://www.hackerrank.com/challenges/drawing-book/problem" class="external-link" target="_blank" rel="noopener">Drawing Book&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;pre tabindex="0">&lt;code>func pageCount(n int32, p int32) int32 {
+ &lt;a class="heading-link" href="#a-random-thursday-in-august"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;So, in order to try and slay my own demons of procrastination and a general feeling of not achieving anything, I&amp;rsquo;ve
+decided to start blogging regularly about all the big and small achievements every day.&lt;/p&gt;
+&lt;p&gt;Today I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solved two basic HackerRank exercises:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hackerrank.com/challenges/drawing-book/problem" class="external-link" target="_blank" rel="noopener"&gt;Drawing Book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;func pageCount(n int32, p int32) int32 {
 
  numBuckets := n/2
  
@@ -27,5 +27,5 @@ decided to start blogging regularly about all the big and small achievements eve
  return wayFromBack
  }
 }
-&lt;/code>&lt;/pre>&lt;p>Which was surprisingly easy in the end, but for some reason I massively over-thought it when I first looked at it. Also
-&amp;ldquo;buckets&amp;rdquo; was a weird choice of naming looking at it now.&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Which was surprisingly easy in the end, but for some reason I massively over-thought it when I first looked at it. Also
+&amp;ldquo;buckets&amp;rdquo; was a weird choice of naming looking at it now.&lt;/p&gt;</description></item></channel></rss>

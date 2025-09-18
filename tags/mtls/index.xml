@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MTLS on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/mtls/</link><description>Recent content in MTLS on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 Jul 2022 16:48:56 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/mtls/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up Mutual TLS with Prometheus</title><link>https://srdan.geek.nz/posts/friday-15th-july-22/</link><pubDate>Thu, 14 Jul 2022 16:48:56 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-july-22/</guid><description>&lt;h2 id="about">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MTLS on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/mtls/</link><description>Recent content in MTLS on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 Jul 2022 16:48:56 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/mtls/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up Mutual TLS with Prometheus</title><link>https://srdan.geek.nz/posts/friday-15th-july-22/</link><pubDate>Thu, 14 Jul 2022 16:48:56 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-july-22/</guid><description>&lt;h2 id="about"&gt;
  About
- &lt;a class="heading-link" href="#about">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>So, recently I was tasked with trying to securely enable metrics collection from servers which did not have a
-private/management IP, only a publicly routable IP address.&lt;/p>
-&lt;p>This was a challenge in that if we are going to expose metrics over the public internet, security becomes a much bigger
-focus.&lt;/p>
-&lt;p>While it was tempting to rely on a single mechanism to restrict access (such as firewall rules to only allow connections
+ &lt;a class="heading-link" href="#about"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;So, recently I was tasked with trying to securely enable metrics collection from servers which did not have a
+private/management IP, only a publicly routable IP address.&lt;/p&gt;
+&lt;p&gt;This was a challenge in that if we are going to expose metrics over the public internet, security becomes a much bigger
+focus.&lt;/p&gt;
+&lt;p&gt;While it was tempting to rely on a single mechanism to restrict access (such as firewall rules to only allow connections
 from the Prometheus server), experience has taught us that it&amp;rsquo;s much better to not assume that any single mechanism will
-work all the time (see: &lt;a href="https://en.wikipedia.org/wiki/Swiss_cheese_model" class="external-link" target="_blank" rel="noopener">Swiss Cheese Model&lt;/a>). Instead we should adopt
-several security mecahnisms such that if a single one fails, others will pick it up (also called &amp;ldquo;Defence in Depth&amp;rdquo;).&lt;/p></description></item></channel></rss>
+work all the time (see: &lt;a href="https://en.wikipedia.org/wiki/Swiss_cheese_model" class="external-link" target="_blank" rel="noopener"&gt;Swiss Cheese Model&lt;/a&gt;). Instead we should adopt
+several security mecahnisms such that if a single one fails, others will pick it up (also called &amp;ldquo;Defence in Depth&amp;rdquo;).&lt;/p&gt;</description></item></channel></rss>

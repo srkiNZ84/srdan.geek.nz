@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gcp on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/gcp/</link><description>Recent content in Gcp on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 15 Sep 2023 10:51:47 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/gcp/index.xml" rel="self" type="application/rss+xml"/><item><title>GitLab CI workflow with Python Flask app</title><link>https://srdan.geek.nz/posts/friday-15th-september-23/</link><pubDate>Fri, 15 Sep 2023 10:51:47 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-september-23/</guid><description>&lt;h1 id="gitlab-ci--workflow-with-python-flask-app">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gcp on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/gcp/</link><description>Recent content in Gcp on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 15 Sep 2023 10:51:47 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/gcp/index.xml" rel="self" type="application/rss+xml"/><item><title>GitLab CI workflow with Python Flask app</title><link>https://srdan.geek.nz/posts/friday-15th-september-23/</link><pubDate>Fri, 15 Sep 2023 10:51:47 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-15th-september-23/</guid><description>&lt;h1 id="gitlab-ci--workflow-with-python-flask-app"&gt;
  GitLab CI workflow with Python Flask app
- &lt;a class="heading-link" href="#gitlab-ci--workflow-with-python-flask-app">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;h2 id="about">
+ &lt;a class="heading-link" href="#gitlab-ci--workflow-with-python-flask-app"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="about"&gt;
  About
- &lt;a class="heading-link" href="#about">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>In this blog post we are going to learn about GitLab CI, specifically looking at Deploy/Release automation.&lt;/p>
-&lt;p>We will be using a simple &lt;a href="https://flask.palletsprojects.com/en/2.3.x/" class="external-link" target="_blank" rel="noopener">Python Flask&lt;/a> app to do this, deploying to
-&lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener">Google Cloud&lt;/a>&amp;rsquo;s &lt;a href="https://cloud.google.com/run?hl=en" class="external-link" target="_blank" rel="noopener">Cloud Run service&lt;/a>.&lt;/p>
-&lt;p>The post assumes that you have a &lt;a href="https://gitlab.com/" class="external-link" target="_blank" rel="noopener">GitLab&lt;/a> account (to store our code and run the CI), a &lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener">Google Cloud&lt;/a> account (to have somewhere to deploy our code to) and &lt;a href="https://www.python.org/" class="external-link" target="_blank" rel="noopener">Python&lt;/a> and &lt;a href="https://www.docker.com/" class="external-link" target="_blank" rel="noopener">Docker&lt;/a> installed locally.&lt;/p></description></item></channel></rss>
+ &lt;a class="heading-link" href="#about"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In this blog post we are going to learn about GitLab CI, specifically looking at Deploy/Release automation.&lt;/p&gt;
+&lt;p&gt;We will be using a simple &lt;a href="https://flask.palletsprojects.com/en/2.3.x/" class="external-link" target="_blank" rel="noopener"&gt;Python Flask&lt;/a&gt; app to do this, deploying to
+&lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener"&gt;Google Cloud&lt;/a&gt;&amp;rsquo;s &lt;a href="https://cloud.google.com/run?hl=en" class="external-link" target="_blank" rel="noopener"&gt;Cloud Run service&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The post assumes that you have a &lt;a href="https://gitlab.com/" class="external-link" target="_blank" rel="noopener"&gt;GitLab&lt;/a&gt; account (to store our code and run the CI), a &lt;a href="https://cloud.google.com/" class="external-link" target="_blank" rel="noopener"&gt;Google Cloud&lt;/a&gt; account (to have somewhere to deploy our code to) and &lt;a href="https://www.python.org/" class="external-link" target="_blank" rel="noopener"&gt;Python&lt;/a&gt; and &lt;a href="https://www.docker.com/" class="external-link" target="_blank" rel="noopener"&gt;Docker&lt;/a&gt; installed locally.&lt;/p&gt;</description></item></channel></rss>

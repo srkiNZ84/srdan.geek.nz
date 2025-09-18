@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ssh on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/ssh/</link><description>Recent content in Ssh on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 01 Feb 2022 11:32:46 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/ssh/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating SSHFP records</title><link>https://srdan.geek.nz/posts/monday-1st-february-22/</link><pubDate>Tue, 01 Feb 2022 11:32:46 +1300</pubDate><guid>https://srdan.geek.nz/posts/monday-1st-february-22/</guid><description>&lt;h1 id="how-to-setup-sshfp-records-to-verify-ssh-fingerprints">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ssh on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/ssh/</link><description>Recent content in Ssh on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 01 Feb 2022 11:32:46 +1300</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/ssh/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating SSHFP records</title><link>https://srdan.geek.nz/posts/monday-1st-february-22/</link><pubDate>Tue, 01 Feb 2022 11:32:46 +1300</pubDate><guid>https://srdan.geek.nz/posts/monday-1st-february-22/</guid><description>&lt;h1 id="how-to-setup-sshfp-records-to-verify-ssh-fingerprints"&gt;
  How to setup SSHFP records to verify SSH fingerprints
- &lt;a class="heading-link" href="#how-to-setup-sshfp-records-to-verify-ssh-fingerprints">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;h2 id="what-are-sshfp-records-and-what-problem-are-we-trying-to-solve">
+ &lt;a class="heading-link" href="#how-to-setup-sshfp-records-to-verify-ssh-fingerprints"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="what-are-sshfp-records-and-what-problem-are-we-trying-to-solve"&gt;
  What are SSHFP records and what problem are we trying to solve?
- &lt;a class="heading-link" href="#what-are-sshfp-records-and-what-problem-are-we-trying-to-solve">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;p>NOTE: Feel free to skip this part if you know what &lt;a href="https://en.wikipedia.com/wiki/SSHFP_record" class="external-link" target="_blank" rel="noopener">SSHFP records&lt;/a> are and want to get to the instructions&lt;/p>
-&lt;p>So, you might have noticed that every time you connect to a server over SSH you get a message like this:&lt;/p></description></item></channel></rss>
+ &lt;a class="heading-link" href="#what-are-sshfp-records-and-what-problem-are-we-trying-to-solve"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;NOTE: Feel free to skip this part if you know what &lt;a href="https://en.wikipedia.com/wiki/SSHFP_record" class="external-link" target="_blank" rel="noopener"&gt;SSHFP records&lt;/a&gt; are and want to get to the instructions&lt;/p&gt;
+&lt;p&gt;So, you might have noticed that every time you connect to a server over SSH you get a message like this:&lt;/p&gt;</description></item></channel></rss>

@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloudflare on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/cloudflare/</link><description>Recent content in Cloudflare on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 Jul 2022 12:08:24 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/cloudflare/index.xml" rel="self" type="application/rss+xml"/><item><title>Generating CA and certificates with CFSSL</title><link>https://srdan.geek.nz/posts/thursday-14th-july-22/</link><pubDate>Thu, 14 Jul 2022 12:08:24 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-14th-july-22/</guid><description>&lt;h1 id="generating-a-ca-and-signing-certificates-with-cfssl">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloudflare on Home of Srđan Đukić</title><link>https://srdan.geek.nz/tags/cloudflare/</link><description>Recent content in Cloudflare on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 Jul 2022 12:08:24 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/tags/cloudflare/index.xml" rel="self" type="application/rss+xml"/><item><title>Generating CA and certificates with CFSSL</title><link>https://srdan.geek.nz/posts/thursday-14th-july-22/</link><pubDate>Thu, 14 Jul 2022 12:08:24 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-14th-july-22/</guid><description>&lt;h1 id="generating-a-ca-and-signing-certificates-with-cfssl"&gt;
  Generating a CA and signing certificates with CFSSL
- &lt;a class="heading-link" href="#generating-a-ca-and-signing-certificates-with-cfssl">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h1>
-&lt;h2 id="about">
+ &lt;a class="heading-link" href="#generating-a-ca-and-signing-certificates-with-cfssl"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="about"&gt;
  About
- &lt;a class="heading-link" href="#about">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h2>
-&lt;h3 id="background">
+ &lt;a class="heading-link" href="#about"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="background"&gt;
  Background
- &lt;a class="heading-link" href="#background">
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
- &lt;span class="sr-only">Link to heading&lt;/span>
- &lt;/a>
-&lt;/h3>
-&lt;p>Recently I was trying to setup an example mutual TLS configuration between Prometheus (the server) and Node Exporter. In doing so I
+ &lt;a class="heading-link" href="#background"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Recently I was trying to setup an example mutual TLS configuration between Prometheus (the server) and Node Exporter. In doing so I
 used OpenSSL to generate a CA and certificates for Prometheus and then have the Node exporter trust any client
-certificates signed by the CA.&lt;/p></description></item></channel></rss>
+certificates signed by the CA.&lt;/p&gt;</description></item></channel></rss>
