@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Home of Srđan Đukić</title><link>https://srdan.geek.nz/posts/</link><description>Recent content in Posts on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 18 Sep 2025 15:40:05 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>So there's only TypeScript</title><link>https://srdan.geek.nz/posts/thursday-18th-sept-2025/</link><pubDate>Thu, 18 Sep 2025 15:40:05 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-18th-sept-2025/</guid><description>&lt;h1 id="so-theres-only-typescript"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Home of Srđan Đukić</title><link>https://srdan.geek.nz/posts/</link><description>Recent content in Posts on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Sep 2025 19:01:03 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>LLMs becoming boring, motivation and NZ banks</title><link>https://srdan.geek.nz/posts/friday-19th-september-2025/</link><pubDate>Fri, 19 Sep 2025 19:01:03 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-19th-september-2025/</guid><description>&lt;p&gt;So, this post is a collection of three unrelated articles that I have read recently.&lt;/p&gt;
+&lt;h1 id="llms-becoming-boring"&gt;
+ LLMs becoming boring
+ &lt;a class="heading-link" href="#llms-becoming-boring"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://jenson.org/boring/" class="external-link" target="_blank" rel="noopener"&gt;Boring is good&lt;/a&gt; Article basically summarising the current state of LLMs. There are so many
+articles with this same topic and theme at the moment (personally I had my AI rant in a group chat :-D).&lt;/p&gt;
+&lt;p&gt;The main theme is that it seems that we are finally getting through the hype cycle with LLM based AI and what everyone
+is finding is that the value seems to be in very specific/niche use cases (e.g. helping me with TypeScript syntax). The
+use case for higher level code generation/problem solving seems to be spotty at best (at worst you have senior engineers
+quietly dropping the technology due to the amount of AI &amp;ldquo;slop&amp;rdquo; that is produced).&lt;/p&gt;</description></item><item><title>So there's only TypeScript</title><link>https://srdan.geek.nz/posts/thursday-18th-sept-2025/</link><pubDate>Thu, 18 Sep 2025 15:40:05 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-18th-sept-2025/</guid><description>&lt;h1 id="so-theres-only-typescript"&gt;
  So there&amp;rsquo;s only TypeScript
  &lt;a class="heading-link" href="#so-theres-only-typescript"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
