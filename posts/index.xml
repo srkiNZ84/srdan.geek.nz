@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Home of Srđan Đukić</title><link>https://srdan.geek.nz/posts/</link><description>Recent content in Posts on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 27 May 2025 12:05:08 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Good article about graceful shutdown with Go</title><link>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</link><pubDate>Tue, 27 May 2025 12:05:08 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</guid><description>&lt;h1 id="good-graceful-shutdown-article"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Home of Srđan Đukić</title><link>https://srdan.geek.nz/posts/</link><description>Recent content in Posts on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 18 Sep 2025 15:40:05 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>So there's only TypeScript</title><link>https://srdan.geek.nz/posts/thursday-18th-sept-2025/</link><pubDate>Thu, 18 Sep 2025 15:40:05 +1200</pubDate><guid>https://srdan.geek.nz/posts/thursday-18th-sept-2025/</guid><description>&lt;h1 id="so-theres-only-typescript"&gt;
+ So there&amp;rsquo;s only TypeScript
+ &lt;a class="heading-link" href="#so-theres-only-typescript"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;When I finished university and was developing my passion for open source software, there came a point where I started
+feeling disillusioned about the job market and wrote something like &amp;ldquo;So there&amp;rsquo;s only HTML&amp;rdquo; complaining that all I could
+see in the future in terms of job prospects was developing CRUD web apps. That must have been about 20 years ago now.&lt;/p&gt;</description></item><item><title>Good article about graceful shutdown with Go</title><link>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</link><pubDate>Tue, 27 May 2025 12:05:08 +1200</pubDate><guid>https://srdan.geek.nz/posts/tuesday-27th-may-2025/</guid><description>&lt;h1 id="good-graceful-shutdown-article"&gt;
  Good graceful shutdown article
  &lt;a class="heading-link" href="#good-graceful-shutdown-article"&gt;
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
