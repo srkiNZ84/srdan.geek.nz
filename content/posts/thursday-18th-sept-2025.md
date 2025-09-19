@@ -1,8 +1,8 @@
 +++ 
-draft = true
+draft = false
 date = 2025-09-18T15:40:05+12:00
 title = "So there's only TypeScript"
-description = "It just feels like PHP all over again"
+description = ""
 slug = ""
 authors = ["Srđan Đukić"]
 tags = []
@@ -37,5 +37,7 @@ write JavaScript code
 
 There's more to each of those points, but it's a rough idea of what has sort of happened.
 
+So, here we are. 2025. And it seems more and more that the future is TypeScript everywhere and we all need to get on
+board.
 
 Day 1 of trying to write every day for 30 days
