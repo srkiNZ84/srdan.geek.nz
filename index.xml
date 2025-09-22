@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home of Srđan Đukić</title><link>https://srdan.geek.nz/</link><description>Recent content on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Sep 2025 19:01:03 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/index.xml" rel="self" type="application/rss+xml"/><item><title>LLMs becoming boring, motivation and NZ banks</title><link>https://srdan.geek.nz/posts/friday-19th-september-2025/</link><pubDate>Fri, 19 Sep 2025 19:01:03 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-19th-september-2025/</guid><description>&lt;p&gt;So, this post is a collection of three unrelated articles that I have read recently.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home of Srđan Đukić</title><link>https://srdan.geek.nz/</link><description>Recent content on Home of Srđan Đukić</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 22 Sep 2025 22:23:26 +1200</lastBuildDate><atom:link href="https://srdan.geek.nz/index.xml" rel="self" type="application/rss+xml"/><item><title>JavaScript security</title><link>https://srdan.geek.nz/posts/monday-22nd-september-2025/</link><pubDate>Mon, 22 Sep 2025 22:23:26 +1200</pubDate><guid>https://srdan.geek.nz/posts/monday-22nd-september-2025/</guid><description>&lt;h1 id="shai-hulud"&gt;
+ Shai-Hulud
+ &lt;a class="heading-link" href="#shai-hulud"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;So, recently there&amp;rsquo;s been a fairly nasty worm in the NPM ecosystem called
+&lt;a href="https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages" class="external-link" target="_blank" rel="noopener"&gt;Shai-Hulud&lt;/a&gt;. (NOTE: the name
+comes from &lt;a href="https://dune.fandom.com/wiki/Shai-Hulud" class="external-link" target="_blank" rel="noopener"&gt;Dune&lt;/a&gt; where it&amp;rsquo;s the original name for the giant sand worms).&lt;/p&gt;
+&lt;p&gt;The Shai-Hulud, and other attacks, have prompted the increased popularity of documents such as &lt;a href="https://github.com/bodadotsh/npm-security-best-practices" class="external-link" target="_blank" rel="noopener"&gt;this gem of an best
+practice document&lt;/a&gt; to become popular.&lt;/p&gt;
+&lt;p&gt;For me, this has become an incredibly sad reality. The NPM package repository, in its quest to claim the title of
+&amp;ldquo;biggest&amp;rdquo; (in terms of the number of packages) seems to have thrown away so much of the utility of open source package
+repositories. This utility was basically &amp;ldquo;trust&amp;rdquo;. I.e. people used it because there was some sort of guarantee that the
+code published could be trusted.&lt;/p&gt;</description></item><item><title>LLMs becoming boring, motivation and NZ banks</title><link>https://srdan.geek.nz/posts/friday-19th-september-2025/</link><pubDate>Fri, 19 Sep 2025 19:01:03 +1200</pubDate><guid>https://srdan.geek.nz/posts/friday-19th-september-2025/</guid><description>&lt;p&gt;So, this post is a collection of three unrelated articles that I have read recently.&lt;/p&gt;
 &lt;h1 id="llms-becoming-boring"&gt;
  LLMs becoming boring
  &lt;a class="heading-link" href="#llms-becoming-boring"&gt;
