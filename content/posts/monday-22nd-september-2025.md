@@ -60,3 +60,5 @@ theoretical questions it poses like "why did you trust the version you pulled in
 Anyway, it is what it is. I'll just have to [swallow a dead
 rat](https://www.stuff.co.nz/business/105611924/budget-buster-the-art-of-swallowing-dead-rats) and accept that we will
 all be maitaining a whole pile of JavaScript in 5-10 years time with massively out of date dependencies. 
+
+NOTE: There is also a good discussion of this on [hacker news](https://news.ycombinator.com/item?id=45326754)
