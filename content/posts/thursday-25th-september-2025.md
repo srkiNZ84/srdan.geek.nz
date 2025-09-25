@@ -12,7 +12,8 @@ series = []
 +++
 # Small organised groups
 
-Reading this Mastodon post about people and various size organisations: [https://mathstodon.xyz/@tao/115259943398316677]
+Reading this Mastodon post about people and various size organisations:
+[https://mathstodon.xyz/@tao/115259943398316677](https://mathstodon.xyz/@tao/115259943398316677)
 
 Recently I have stopped caring about watching or keeping up with the non-local news (and to be honest even a lot of the
 local news I have switched off of) as it all just seems irrelevant to my life.
